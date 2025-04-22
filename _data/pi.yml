@@ -1,0 +1,16 @@
+- name: Hongyan Chang (常红燕)
+  photo: headshot.jpg
+  info: PhD Student, National University of Singapore
+  email: hongyan@comp.nus.edu
+  github: https://github.com/changhongyan123
+  scholar: https://scholar.google.com/citations?user=5d1AHgIAAAAJ&hl=en
+  # cv: cv/cv.pdf
+  # Change the items in "education" you have (up to 6)
+  education:
+    [
+      "(2018-Now) Ph.D. Computer Science, National University of Singapore",
+      "(2014-2018) B.S. Software Engineering, University of Electronic Science and Technology of China"
+    ]
+
+  educationshort:
+    ["(2018-Now) Ph.D. CS, NUS", "(2018) B.S. SE, UESTC"]
