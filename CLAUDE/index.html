@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      CLAUDE.md | Hongyan Chang
+    
+  
+</title>
+<meta name="author" content="Hongyan Chang">
+<meta name="description" content="Personal academic website of Hongyan Chang (常红燕), postdoc researcher at MBZUAI working on trustworthy machine learning and privacy of large language models.
+">
+
+  <meta name="keywords" content="trustworthy-machine-learning, privacy, large-language-models, federated-learning, fairness, membership-inference">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css"
+  integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+  crossorigin="anonymous"
+>
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css">
+<link
+  defer
+  rel="stylesheet"
+  type="text/css"
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+>
+
+<!-- Code Syntax Highlighting -->
+<link
+  defer
+  rel="stylesheet"
+  href="/assets/css/jekyll-pygments-themes-github.css"
+  media=""
+  id="highlight_theme_light"
+>
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="/assets/img/prof_pic.png">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="https://changhongyan123.github.io/CLAUDE/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js"></script>
+
+  <link
+    defer
+    rel="stylesheet"
+    href="/assets/css/jekyll-pygments-themes-native.css"
+    media="none"
+    id="highlight_theme_dark"
+  >
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Hongyan</span>
+            
+            
+            Chang
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button
+        class="navbar-toggler collapsed ml-auto"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">about
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">CLAUDE.md</h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <h1 id="claudemd">CLAUDE.md</h1>
+
+<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
+
+<h2 id="project-overview">Project Overview</h2>
+
+<p>This is an <strong>al-folio</strong> Jekyll academic website template designed for academics, researchers, and students. It’s optimized for GitHub Pages deployment and provides comprehensive functionality for showcasing academic work, including publications, CV, projects, blog posts, and more.</p>
+
+<h2 id="development-commands">Development Commands</h2>
+
+<h3 id="local-development-setup">Local Development Setup</h3>
+
+<p><strong>Docker (Recommended):</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Start development server on http://localhost:8080</span>
+docker compose pull
+docker compose up
+
+<span class="c"># Slim version (faster, smaller image)</span>
+docker compose <span class="nt">-f</span> docker-compose-slim.yml up
+
+<span class="c"># Build custom docker image</span>
+docker compose up <span class="nt">--build</span>
+
+<span class="c"># Debug docker issues</span>
+docker compose up <span class="nt">-d</span>
+docker compose logs
+docker compose <span class="nb">exec</span> <span class="nt">-it</span> jekyll /bin/bash
+</code></pre></div></div>
+
+<p><strong>Native Ruby Setup:</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Install dependencies</span>
+bundle <span class="nb">install</span>
+
+<span class="c"># Local development server on http://localhost:4000</span>
+bundle <span class="nb">exec </span>jekyll serve
+
+<span class="c"># Build for production</span>
+bundle <span class="nb">exec </span>jekyll build
+</code></pre></div></div>
+
+<h3 id="code-quality-and-deployment">Code Quality and Deployment</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Format code with Prettier</span>
+npx prettier <span class="nt">--write</span> <span class="nb">.</span>
+
+<span class="c"># Manual deployment to GitHub Pages</span>
+<span class="c"># (Automatic deployment is configured via GitHub Actions)</span>
+
+<span class="c"># Clean CSS for production</span>
+purgecss <span class="nt">-c</span> purgecss.config.js
+
+<span class="c"># Build to custom destination</span>
+bundle <span class="nb">exec </span>jekyll build <span class="nt">--destination</span> /path/to/destination
+</code></pre></div></div>
+
+<h2 id="architecture-overview">Architecture Overview</h2>
+
+<h3 id="core-jekyll-structure">Core Jekyll Structure</h3>
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">_config.yml</code></strong>: Main site configuration, theme settings, plugin configuration</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">_layouts/</code></strong>: HTML templates (about, post, CV, publications, distill)</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">_includes/</code></strong>: Reusable components (header, footer, CV sections, social links)</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">_sass/</code></strong>: SCSS stylesheets with theme variables and responsive design</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">_pages/</code></strong>: Static pages (about, CV, publications, projects, blog)</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">_posts/</code></strong>: Blog posts following Jekyll naming convention (YYYY-MM-DD-title.md)</li>
+</ul>
+
+<h3 id="academic-specific-features">Academic-Specific Features</h3>
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">_bibliography/</code></strong>: BibTeX files for publications (managed by jekyll-scholar)</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">_data/</code></strong>: YAML data files (CV, social links, repositories, coauthors)</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">_projects/</code></strong>: Project showcase pages with metadata</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">_news/</code></strong>: News/announcements displayed on homepage</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">_books/</code></strong>: Book reviews and reading lists</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">assets/</code></strong>: Static assets including JSON resume, PDFs, images</li>
+</ul>
+
+<h3 id="key-plugins-and-dependencies">Key Plugins and Dependencies</h3>
+<ul>
+  <li><strong>jekyll-scholar</strong>: Bibliography management and citation formatting</li>
+  <li><strong>jekyll-imagemagick</strong>: Responsive image processing and WebP conversion</li>
+  <li><strong>jekyll-jupyter-notebook</strong>: Jupyter notebook support for blog posts</li>
+  <li><strong>jekyll-minifier + jekyll-terser</strong>: Asset optimization</li>
+  <li><strong>jekyll-paginate-v2</strong>: Advanced pagination for collections</li>
+  <li><strong>jekyll-feed</strong>: RSS/Atom feed generation</li>
+</ul>
+
+<h2 id="configuration-and-customization">Configuration and Customization</h2>
+
+<h3 id="site-configuration-_configyml">Site Configuration (<code class="language-plaintext highlighter-rouge">_config.yml</code>)</h3>
+<ul>
+  <li><strong>Personal info</strong>: Update title, name, contact details, social links</li>
+  <li><strong>URL settings</strong>: Set <code class="language-plaintext highlighter-rouge">url</code> and <code class="language-plaintext highlighter-rouge">baseurl</code> for deployment environment</li>
+  <li><strong>Collections</strong>: Enable/configure projects, news, books collections</li>
+  <li><strong>Jekyll Scholar</strong>: Bibliography style, source directory, filtering</li>
+  <li><strong>Theme options</strong>: Dark mode, navbar, footer, analytics integration</li>
+  <li><strong>Third-party libraries</strong>: CDN versions and integrity hashes</li>
+</ul>
+
+<h3 id="content-management">Content Management</h3>
+<ul>
+  <li><strong>Publications</strong>: Add BibTeX entries to <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code></li>
+  <li><strong>CV</strong>: Update <code class="language-plaintext highlighter-rouge">_data/cv.yml</code> or <code class="language-plaintext highlighter-rouge">assets/json/resume.json</code></li>
+  <li><strong>Projects</strong>: Create markdown files in <code class="language-plaintext highlighter-rouge">_projects/</code> with front matter</li>
+  <li><strong>Blog posts</strong>: Follow Jekyll naming convention in <code class="language-plaintext highlighter-rouge">_posts/</code></li>
+  <li><strong>News</strong>: Add announcements to <code class="language-plaintext highlighter-rouge">_news/</code> for homepage display</li>
+</ul>
+
+<h3 id="styling-and-theming">Styling and Theming</h3>
+<ul>
+  <li><strong>Theme colors</strong>: Modify <code class="language-plaintext highlighter-rouge">--global-theme-color</code> in <code class="language-plaintext highlighter-rouge">_sass/_themes.scss</code></li>
+  <li><strong>Custom styles</strong>: Add to <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code> or create new SCSS files</li>
+  <li><strong>Responsive images</strong>: Configure in <code class="language-plaintext highlighter-rouge">_config.yml</code> under <code class="language-plaintext highlighter-rouge">imagemagick</code></li>
+  <li><strong>Font integration</strong>: Font Awesome, Academicons, and Tabler Icons included</li>
+</ul>
+
+<h2 id="deployment-workflow">Deployment Workflow</h2>
+
+<h3 id="github-pages-automatic">GitHub Pages (Automatic)</h3>
+<ul>
+  <li><strong>Trigger</strong>: Push to <code class="language-plaintext highlighter-rouge">master</code> branch</li>
+  <li><strong>Workflow</strong>: <code class="language-plaintext highlighter-rouge">.github/workflows/jekyll-build-deploy.yml</code></li>
+  <li><strong>Process</strong>: Ruby 3.2 → bundle install → jekyll build → deploy to gh-pages</li>
+  <li><strong>URL</strong>: <code class="language-plaintext highlighter-rouge">https://changhongyan123.github.io</code></li>
+</ul>
+
+<h3 id="development-tips">Development Tips</h3>
+<ul>
+  <li><strong>Live reload</strong>: Both Docker and native serve support auto-regeneration</li>
+  <li><strong>Bibliography</strong>: Changes to <code class="language-plaintext highlighter-rouge">.bib</code> files require server restart</li>
+  <li><strong>Asset optimization</strong>: Images automatically processed for responsive display</li>
+  <li><strong>Search functionality</strong>: Built-in search indexes posts, pages, and bibliography</li>
+  <li><strong>Theme switching</strong>: Automatic dark/light mode based on system preference</li>
+</ul>
+
+<h3 id="common-file-patterns">Common File Patterns</h3>
+<ul>
+  <li><strong>Posts</strong>: <code class="language-plaintext highlighter-rouge">_posts/YYYY-MM-DD-title.md</code></li>
+  <li><strong>Projects</strong>: <code class="language-plaintext highlighter-rouge">_projects/project-name.md</code></li>
+  <li><strong>News</strong>: <code class="language-plaintext highlighter-rouge">_news/announcement.md</code></li>
+  <li><strong>Pages</strong>: <code class="language-plaintext highlighter-rouge">_pages/page-name.md</code></li>
+  <li><strong>Assets</strong>: <code class="language-plaintext highlighter-rouge">assets/img/</code>, <code class="language-plaintext highlighter-rouge">assets/pdf/</code>, <code class="language-plaintext highlighter-rouge">assets/json/</code></li>
+</ul>
+
+<h3 id="important-notes">Important Notes</h3>
+<ul>
+  <li><strong>Repository name</strong>: Must be <code class="language-plaintext highlighter-rouge">changhongyan123.github.io</code> for user site</li>
+  <li><strong>Branch</strong>: Deployment from <code class="language-plaintext highlighter-rouge">master</code> branch to <code class="language-plaintext highlighter-rouge">gh-pages</code></li>
+  <li><strong>Dependencies</strong>: ImageMagick required for responsive images</li>
+  <li><strong>Ruby version</strong>: 3.2 (specified in GitHub Actions workflow)</li>
+  <li><strong>Node.js</strong>: Only used for Prettier code formatting</li>
+</ul>
+
+  </article>
+
+  
+
+  
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+
+
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      
+  &copy; Copyright 2025
+  Hongyan
+  
+  Chang. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
+  
+  
+
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script
+  src="https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"
+></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
+  integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+  crossorigin="anonymous"
+></script>
+
+
+  <!-- Masonry & imagesLoaded -->
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/masonry-layout@{{version}}/dist/masonry.pkgd.min.js"
+    integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js"
+    integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/medium-zoom@{{version}}/dist/medium-zoom.min.js"
+    integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="/assets/js/zoom.js"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js"></script>
+<script defer src="/assets/js/common.js"></script>
+<script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js"></script>
+
+<!-- Badges -->
+
+
+
+
+  <!-- MathJax -->
+  <script
+    defer
+    type="text/javascript"
+    id="MathJax-script"
+    src="https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+    integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
+    crossorigin="anonymous"
+  ></script>
+  
+    <script src="/assets/js/mathjax-setup.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
+      crossorigin="anonymous"
+    ></script>
+  
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/assets/js/vanilla-back-to-top.min.js"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js"></script>
+  <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="Type to start searching"></ninja-keys>
+  <script src="/assets/js/search-setup.js"></script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/shortcut-key.js"></script>
+
+
+
+
+  </body>
+</html>
