@@ -1,46 +1,11 @@
 ---
-layout: archive
-title: "CV"
+layout: cv
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+title: cv
+nav: false
+nav_order: 5
+cv_pdf: example_pdf.pdf # you can also use external links here
+description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+toc:
+  sidebar: left
 ---
-
-{% include base_path %}
-
-Education
-======
-* Ph.D. in Computer Science, National University of Singapore, Present (ongoing)
-* Previous educational details to be added
-
-Research Interests
-======
-* Privacy in Machine Learning
-* Fairness in Machine Learning
-* Federated Learning
-* Large Language Models Security
-
-Skills
-======
-* Machine Learning
-* Data Privacy
-* Algorithm Design
-* Programming Languages
-  * Python
-  * R
-  * Java
-  
-Awards and Honors
-======
-* To be added
-
-Service
-======
-* To be added
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>

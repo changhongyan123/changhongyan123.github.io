@@ -1,0 +1,124 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Hongyan Chang (常红燕)
+    - name: Email
+      value: changhongyan0530@gmail.com
+    - name: Languages
+      value: English, Chinese
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Computer Science
+      institution: National University of Singapore
+      year: 2018 - 2022
+      description:
+        - School of Computing
+        - Supervisor Prof. Reza Shokri
+        - Research focus on trustworthy machine learning, privacy, and fairness
+        - National University of Singapore Research Scholarship recipient
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Researcher
+      institution: Mohamed bin Zayed University of AI (MBZUAI)
+      year: 2022 - present
+      description:
+        - Working with Prof. Ting Yu
+        - Research on privacy and accountability of large language models
+        - Leading development of Privacy Meter open source library
+
+- title: Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - Best Paper Award at ACM Conference on Fairness, Accountability, and Transparency (FAccT)
+        - Research Achievement Award by NUS School of Computing
+    - year: 2018-2022
+      items:
+        - National University of Singapore Research Scholarship
+    - year: 2017
+      items:
+        - First Prize of the 10th National Information Security Competition on fake news detection for WeiBo
+    - year: 2015-2016
+      items:
+        - National Scholarship (top 1%)
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: Privacy Meter
+      year: 2019 - present
+      description:
+        - Leading development team for privacy research and deployment tool
+        - 500+ stars on GitHub
+        - Used for privacy auditing in machine learning systems
+        - Initial 1.0.1 release leadership
+    - title: OpenFL Integration
+      year: 2021
+      description:
+        - Led integration of Privacy Meter into Intel's OpenFL framework
+        - Real-time privacy risk auditing capabilities
+
+- title: Academic Service
+  type: nested_list
+  contents:
+    - title: Program Committee
+      items:
+        - ICLR 2024
+        - NeurIPS 2025
+        - ACM FAccT Conference 2022, 2023
+        - PAIR2Struct workshop in ICLR 2022
+    - title: Area Editor/PC Member
+      items:
+        - NDSS 2025 (AE PC member)
+        - USENIX 2025 (AE PC member)
+    - title: Reviewer
+      items:
+        - VLDB 2025 (External Reviewer)
+        - IEEE Security & Privacy 2024
+        - PPAI 2024
+        - IEEE S&P (Sub-reviewer)
+        - ACM CCS (Sub-reviewer)
+
+- title: Invited Talks
+  type: nested_list
+  contents:
+    - title: Fairness in Federated Learning
+      items:
+        - FL@FM-Singapore, 2024
+        - Brave, 2024
+        - N-CRiPT, 2023
+    - title: Trade-off in Privacy and Fairness
+      items:
+        - Private-AI, 2022
+        - Chaspark by Huawei, 2022
+        - CyberSec&AI, 2021
+        - PrivacyCon, 2021 by the US Federal Trade Commission (FTC)
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant - Trustworthy Machine Learning
+      institution: National University of Singapore
+      year: Summer 2021, 2022, 2023
+    - title: Teaching Assistant - Computer Security
+      institution: National University of Singapore
+      year: Spring and Summer 2020
+    - title: Teaching Assistant - Introduction to Artificial Intelligence
+      institution: National University of Singapore
+      year: Spring 2019
+
+- title: Research Interests
+  type: list
+  contents:
+    - Trustworthy Machine Learning
+    - Privacy in Large Language Models
+    - Membership Inference Attacks
+    - Machine-generated Text Detection
+    - Federated Learning Privacy
+    - Algorithmic Fairness
