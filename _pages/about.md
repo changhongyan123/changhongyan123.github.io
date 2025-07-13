@@ -66,13 +66,13 @@ My research interests are in trustworthy machine learning, with a focus on the p
    [[PDF](https://openreview.net/pdf?id=V7CYzdruWdm)] [[Code](https://github.com/privacytrustlab/bias_in_FL)]
 
 - **Cronus: Robust and Heterogeneous Collaborative Learning with Black-box Knowledge Transfer**  
-   **Hongyan Chang***, Virat Shejwalkar*, Reza Shokri, and Amir Houmansadr  
+   **Hongyan Chang**\*, Virat Shejwalkar\*, Reza Shokri, and Amir Houmansadr  
    *NFFL@Neural Information Processing Systems (NeurIPS), 2021*  
    (*Equal contribution)  
    [[PDF](https://neurips2021workshopfl.github.io/NFFL-2021/papers/2021/Chang2021.pdf)]
 
 - **On the Privacy Risks of Algorithmic Fairness**  
-   **Hongyan Chang** and Reza Shokri
+   **Hongyan Chang** and Reza Shokri  
    *6th IEEE European Symposium on Security and Privacy (Euro S&P), 2021*  
    [[PDF](https://arxiv.org/pdf/2011.03731)] [[Slides](https://www.ieee-security.org/TC/EuroSP2021/slides/Hongyan%20Chang%20-%20Hongyan%20Chang-On%20the%20Privacy%20Risks%20of%20Algorithmic%20Fairness.pdf)]
 
