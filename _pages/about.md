@@ -41,39 +41,45 @@ My research interests are in trustworthy machine learning, with a focus on the p
 
 ### Publications
 
-1. **Watermark Smoothing Attacks against Language Models**  
+- **Watermark Smoothing Attacks against Language Models**  
    **Hongyan Chang**, Hamed Hassani, and Reza Shokri  
-   *In WMARK, International Conference on Learning Representations (ICLR), 2025*
+   *WMARK@International Conference on Learning Representations (ICLR), 2025*
 
-2. **Context-Aware Membership Inference Attacks Against Pre-Trained Large Language Models**  
+- **Context-Aware Membership Inference Attacks Against Pre-Trained Large Language Models**  
    **Hongyan Chang**, Ali Shahin Shamsabadi, Kleomenis Katevas, Hamed Haddadi, and Reza Shokri  
    *2024*
 
-3. **Efficient Privacy Auditing in Federated Learning**  
-   **Hongyan Chang**, Ben Edwards, Anshuman Paul, and Reza Shokri  
-   *In USENIX Security Symposium (USENIX), 2024*  
+- **Efficient Privacy Auditing in Federated Learning**  
+   **Hongyan Chang**, Brandon Edwards, Anindya S. Paul, and Reza Shokri  
+   *USENIX Security Symposium (USENIX), 2024*  
    [[PDF](https://www.usenix.org/conference/usenixsecurity24/presentation/chang)] [[Code](https://github.com/changhongyan123/privacy_auditing_in_FL)]
 
-4. **Impact of Public Data on Private Image Classification**  
-   Virat Shejwalkar, **Hongyan Chang** (equal contribution), Amir Houmansadr, and Reza Shokri  
-   *In ICLR Workshop: Privacy and Security in ML (PSML), 2023*
+- **On The Impact of Machine Learning Randomness on Group Fairness**  
+   Prakhar Ganesh, **Hongyan Chang**, Martin Strobel, and Reza Shokri  
+   *ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2023*  
+   🏆 **Best Paper Award**  
+   [[PDF](https://dl.acm.org/doi/10.1145/3593013.3594116)] [[Code](https://github.com/privacytrustlab/Data-Order-Randomness-versus-Group-Fairness)]
 
-5. **Cronus: Robust and Heterogeneous Collaborative Learning with Noisy Labels**  
-   **Hongyan Chang**, Virat Shejwalkar (equal contribution), and Amir Houmansadr  
-   *In Advances in Neural Information Processing Systems (NeurIPS), 2023*  
-   🏆 **Best Student Paper Award**
+- **Bias Propagation in Federated Learning**  
+   **Hongyan Chang** and Reza Shokri  
+   *International Conference on Learning Representations (ICLR), 2023*  
+   [[PDF](https://openreview.net/pdf?id=V7CYzdruWdm)] [[Code](https://github.com/privacytrustlab/bias_in_FL)]
 
-6. **Privacy and Robustness in Federated Learning: Attacks and Defenses**  
-   Lingjuan Lyu, **Hongyan Chang**, Yaochen Xie, Ligeng Zhu, and Chen Lin  
-   *2021*
+- **Cronus: Robust and Heterogeneous Collaborative Learning with Black-box Knowledge Transfer**  
+   **Hongyan Chang***, Virat Shejwalkar*, Reza Shokri, and Amir Houmansadr  
+   *NFFL@Neural Information Processing Systems (NeurIPS), 2021*  
+   (*Equal contribution)  
+   [[PDF](https://neurips2021workshopfl.github.io/NFFL-2021/papers/2021/Chang2021.pdf)]
 
-7. **Fairness Without Demographics through Adversarially Reweighted Learning**  
+- **On the Privacy Risks of Algorithmic Fairness**  
+   **Hongyan Chang** and Reza Shokri
+   *6th IEEE European Symposium on Security and Privacy (Euro S&P), 2021*  
+   [[PDF](https://arxiv.org/pdf/2011.03731)] [[Slides](https://www.ieee-security.org/TC/EuroSP2021/slides/Hongyan%20Chang%20-%20Hongyan%20Chang-On%20the%20Privacy%20Risks%20of%20Algorithmic%20Fairness.pdf)]
+
+- **On Adversarial Bias and the Robustness of Fair Machine Learning**  
    **Hongyan Chang**, Ta Duy Nguyen, Sasi Kumar Murakonda, Ehsan Kazemi, and Reza Shokri  
-   *In International Conference on Machine Learning (ICML), 2021*
-
-8. **On the Privacy Risks of Algorithmic Fairness**  
-   **Hongyan Chang**, Reza Shokri, and Milad Nasr  
-   *In European Symposium on Security and Privacy (EuroS&P), 2021*
+   *2020*  
+   [[PDF](https://arxiv.org/pdf/2006.08669)] [[Code](https://github.com/privacytrustlab/adversarial_bias)]
 
 ---
 
@@ -89,12 +95,11 @@ My research interests are in trustworthy machine learning, with a focus on the p
 
 ### Selected Awards
 
-- **Notable Reviewer** in ICLR 2025
-- **Best Paper Award** in the 2023 ACM Conference on Fairness, Accountability, and Transparency (FAccT)
-- **Research Achievement Award** in 2023 by NUS School of Computing
-- **National University of Singapore Research Scholarship** (2018–2022)
-- **First Prize** of the 10th National Information Security Competition (2017) on fake news detection for WeiBo
-- **National Scholarship** (2015 & 2016, top 1%)
+- Notable Reviewer in ICLR 2025
+- Research Achievement Award in 2023 by NUS School of Computing
+- National University of Singapore Research Scholarship* (2018–2022)
+- First Prize of the 10th National Information Security Competition (2017) on fake news detection for WeiBo
+- National Scholarship (2015 & 2016, top 1%)
 
 
 ---
@@ -112,15 +117,18 @@ My research interests are in trustworthy machine learning, with a focus on the p
 
 ### Teaching Experience
 
-- **Teaching Assistant** for Trustworthy Machine Learning (Summer 2021, 2022, 2023)
-- **Teaching Assistant** for Computer Security (Spring and Summer 2020)
-- **Teaching Assistant** for Introduction to Artificial Intelligence (Spring 2019)
+- Teaching Assistant for Trustworthy Machine Learning (Summer 2021, 2022, 2023)
+- Teaching Assistant for Computer Security (Spring and Summer 2020)
+- Teaching Assistant for Introduction to Artificial Intelligence (Spring 2019)
 
 
 ---
 
 
 ### Talks
+
+**Watermark in Large Language Models**
+- WMARK@ICLR, 2025 (poster)
 
 **Privacy in Federated Learning**
 - USENIX, 2024
@@ -132,7 +140,7 @@ My research interests are in trustworthy machine learning, with a focus on the p
 - N-CRiPT, 2023
 
 **Trade-off in Privacy and Fairness**
-- [Private AI Collaborative Research Institute](https://www.intel.com/content/www/us/en/research/blogs/private-ai-collaborative-research-institute-launch.html) held by Intel, 2022
+- Private AI Collaborative Research Institute held by Intel, 2022
 - CyberSec&AI, 2021
 - PrivacyCon, 2021 by the US Federal Trade Commission (FTC)
 
