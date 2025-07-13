@@ -85,7 +85,7 @@ My research interests are in trustworthy machine learning, with a focus on the p
 
 ### Service
 
-- External Reviewer for VLDB 2025
+- External Reviewer for VLDB 2026
 - PC member for ICLR 2024, NeurIPS 2025
 - AE PC member of NDSS 2025, USENIX 2025, NDSS 2026
 - Reviewer of IEEE Security & Privacy 2024
