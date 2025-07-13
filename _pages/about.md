@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Hongyan Chang (常红燕), a postdoc at MBZUAI, working with Prof. [Ting Yu](https://mbzuai.ac.ae/study/faculty/ting-yu/). I obtained my Ph.D. from National University of Singapore working under the supervision of [Reza Shokri](https://www.comp.nus.edu.sg/~reza/).
+I am Hongyan Chang (常红燕), a postdoc at MBZUAI, working with Prof. [Ting Yu](https://mbzuai.ac.ae/study/faculty/ting-yu/). I obtained my Ph.D. from National University of Singapore working under the supervision of [Reza Shokri](https://www.comp.nus.edu.sg/~reza/). 
 
 My research interests are in trustworthy machine learning, with a focus on the privacy and accountability of large language models (LLMs):
 
