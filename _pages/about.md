@@ -43,11 +43,12 @@ My research interests are in trustworthy machine learning, with a focus on the p
 
 - **Watermark Smoothing Attacks against Language Models**  
    **Hongyan Chang**, Hamed Hassani, and Reza Shokri  
+   *Empirical Methods in Natural Language Processing (EMNLP) Findings, 2025*
    *WMARK@International Conference on Learning Representations (ICLR), 2025*
 
 - **Context-Aware Membership Inference Attacks Against Pre-Trained Large Language Models**  
    **Hongyan Chang**, Ali Shahin Shamsabadi, Kleomenis Katevas, Hamed Haddadi, and Reza Shokri  
-   *2024*
+   *Empirical Methods in Natural Language Processing (EMNLP) Main, 2025*
 
 - **Efficient Privacy Auditing in Federated Learning**  
    **Hongyan Chang**, Brandon Edwards, Anindya S. Paul, and Reza Shokri  
