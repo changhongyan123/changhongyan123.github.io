@@ -33,7 +33,7 @@ I am Hongyan Chang (常红燕), a postdoc at MBZUAI, working with Prof. [Ting Yu
 
 My research interests are in trustworthy machine learning, with a focus on the privacy and accountability of large language models (LLMs):
 
-- **Evaluating the risks of LLMs**: Understanding and quantifying vulnerabilities in modern language models and their applications
+- **Evaluating the risks of LLM systems**: Understanding and quantifying vulnerabilities in modern language models and their systems
 - **Machine-generated text detection**: Developing methods to identify AI-generated content while preserving utility
 
 
