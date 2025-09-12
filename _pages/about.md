@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Hongyan Chang (常红燕), a postdoc at MBZUAI, working with Prof. [Ting Yu](https://mbzuai.ac.ae/study/faculty/ting-yu/). I obtained my Ph.D. from National University of Singapore working under the supervision of [Reza Shokri](https://www.comp.nus.edu.sg/~reza/). 
+I am **Hongyan Chang (常红燕)**, a postdoctoral researcher at MBZUAI, working with [Prof. Ting Yu](https://mbzuai.ac.ae/study/faculty/ting-yu/). I obtained my Ph.D. in Computer Science from the National University of Singapore, under the supervision of [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/). I received my Bachelor's degree in 2018 from the University of Electronic Science and Technology of China (UESTC), and was a visiting student at National Chiao Tung University in 2016.
 
 My research interests are in trustworthy machine learning, with a focus on the privacy and accountability of large language models (LLMs):
 
@@ -44,7 +44,6 @@ My research interests are in trustworthy machine learning, with a focus on the p
 - **Watermark Smoothing Attacks against Language Models**  
    **Hongyan Chang**, Hamed Hassani, and Reza Shokri  
    *Empirical Methods in Natural Language Processing (EMNLP) Findings, 2025*  
-   
    *WMARK@International Conference on Learning Representations (ICLR), 2025*  
 
 - **Context-Aware Membership Inference Attacks Against Pre-Trained Large Language Models**  
@@ -88,18 +87,18 @@ My research interests are in trustworthy machine learning, with a focus on the p
 ### Service
 
 - External Reviewer for VLDB 2026
-- PC member for ICLR 2024, NeurIPS 2025
+- PC member for ICLR 2025, NeurIPS 2025, ICLR 2026 
 - AE PC member of NDSS 2025, USENIX 2025, NDSS 2026
-- Reviewer of IEEE Security & Privacy 2024
+- Reviewer of IEEE Security & Privacy 2024 ([Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/certificate.pdf))
 - PC member of ACM FAccT Conference 2022, 2023
 
 ---
 
 ### Selected Awards
-
-- Notable Reviewer in ICLR 2025
+- [Distinguished Reviewer Awards in USENIX 2025 (Artifact Evaluation)](https://secartifacts.github.io/usenixsec2025/awards#-distinguished-reviewer-awards:~:text=Hongyan%20Chang%2C%20National%20University%20of%20Singapore)
+- [Notable Reviewer in ICLR 2025](https://iclr.cc/Conferences/2025/Reviewers)
 - Research Achievement Award in 2023 by NUS School of Computing
-- National University of Singapore Research Scholarship* (2018–2022)
+- National University of Singapore Research Scholarship (2018–2022)
 - First Prize of the 10th National Information Security Competition (2017) on fake news detection for WeiBo
 - National Scholarship (2015 & 2016, top 1%)
 
