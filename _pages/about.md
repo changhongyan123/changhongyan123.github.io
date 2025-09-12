@@ -84,13 +84,20 @@ My research interests are in trustworthy machine learning, with a focus on the p
 
 ---
 
-### Service
-
-- External Reviewer for VLDB 2026
+### PC services
+<!-- - External Reviewer for VLDB 2026
 - PC member for ICLR 2025, NeurIPS 2025, ICLR 2026 
 - AE PC member of NDSS 2025, USENIX 2025, NDSS 2026
 - Reviewer of IEEE Security & Privacy 2024 ([Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/certificate.pdf))
 - PC member of ACM FAccT Conference 2022, 2023
+ -->
+
+- 2026: VLDB (External Reviewer), ICLR (PC), NDSS (AE PC)  
+- 2025: ICLR (PC), NeurIPS (PC), NDSS (AE PC), USENIX Security (AE PC)  
+- 2024: IEEE Security & Privacy (Reviewer, [Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/certificate.pdf))  
+- 2023: ACM FAccT (PC)  
+- 2022: ACM FAccT (PC)
+
 
 ---
 
@@ -143,7 +150,7 @@ My research interests are in trustworthy machine learning, with a focus on the p
 **Trade-off in Privacy and Fairness**
 - Private AI Collaborative Research Institute held by Intel, 2022
 - CyberSec&AI, 2021
-- PrivacyCon, 2021 by the US Federal Trade Commission (FTC)
+- PrivacyCon, 2021 by the **US Federal Trade Commission (FTC)**
 
 
 ---
