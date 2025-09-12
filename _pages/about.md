@@ -104,6 +104,7 @@ My research interests are in trustworthy machine learning, with a focus on the p
 ### Selected Awards
 - [Distinguished Reviewer Awards in USENIX 2025 (Artifact Evaluation)](https://secartifacts.github.io/usenixsec2025/awards#-distinguished-reviewer-awards:~:text=Hongyan%20Chang%2C%20National%20University%20of%20Singapore)
 - [Notable Reviewer in ICLR 2025](https://iclr.cc/Conferences/2025/Reviewers)
+- Best paper award at FAccT23 ([Certificate]({{ site.url }}{{ site.baseurl }}/assets/facct_award.pdf))
 - Research Achievement Award in 2023 by NUS School of Computing
 - National University of Singapore Research Scholarship (2018–2022)
 - First Prize of the 10th National Information Security Competition (2017) on fake news detection for WeiBo
