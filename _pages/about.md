@@ -44,7 +44,8 @@ My research interests are in trustworthy machine learning, with a focus on the p
 - **Watermark Smoothing Attacks against Language Models**  
    **Hongyan Chang**, Hamed Hassani, and Reza Shokri  
    *Empirical Methods in Natural Language Processing (EMNLP) Findings, 2025*  
-   *WMARK@International Conference on Learning Representations (ICLR), 2025*  
+   *WMARK@International Conference on Learning Representations (ICLR), 2025*
+   [[PDF](https://arxiv.org/abs/2409.13745)] [[Code](https://github.com/changhongyan123/context_aware_mia)] [[Blogpost]](https://brave.com/blog/privacy-in-llms/)
 
 - **Context-Aware Membership Inference Attacks Against Pre-Trained Large Language Models**  
    **Hongyan Chang**, Ali Shahin Shamsabadi, Kleomenis Katevas, Hamed Haddadi, and Reza Shokri  
@@ -104,7 +105,7 @@ My research interests are in trustworthy machine learning, with a focus on the p
 ### Selected Awards
 - [Distinguished Reviewer Awards in USENIX 2025 (Artifact Evaluation)](https://secartifacts.github.io/usenixsec2025/awards#-distinguished-reviewer-awards:~:text=Hongyan%20Chang%2C%20National%20University%20of%20Singapore)
 - [Notable Reviewer in ICLR 2025](https://iclr.cc/Conferences/2025/Reviewers)
-- Best paper award at FAccT23 ([Certificate]({{ site.url }}{{ site.baseurl }}/assets/facct_award.pdf))
+- Best paper award at FAccT23 ([Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/facct_award.pdf))
 - Research Achievement Award in 2023 by NUS School of Computing
 - National University of Singapore Research Scholarship (2018–2022)
 - First Prize of the 10th National Information Security Competition (2017) on fake news detection for WeiBo
