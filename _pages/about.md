@@ -94,11 +94,11 @@ My research interests are in trustworthy machine learning, with a focus on the p
 - PC member of ACM FAccT Conference 2022, 2023
  -->
 
-- 2026: VLDB (External Reviewer), ICLR (PC), NDSS (AE PC)  
-- 2025: ICLR (PC), NeurIPS (PC), NDSS (AE PC), USENIX Security (AE PC)  
+- 2026: VLDB (External Reviewer), ICLR (Reviewer), NDSS (AE Reviewer)  
+- 2025: ICLR (Reviewer), NeurIPS (Reviewer), NDSS (AE Reviewer), USENIX Security (AE Reviewer)  
 - 2024: IEEE Security & Privacy (Reviewer, [Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/certificate.pdf))  
-- 2023: ACM FAccT (PC)  
-- 2022: ACM FAccT (PC)
+- 2023: ACM FAccT (Reviewer)  
+- 2022: ACM FAccT (Reviewer)
 
 
 ---
