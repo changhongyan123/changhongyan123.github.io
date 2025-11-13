@@ -44,12 +44,12 @@ My research interests are in trustworthy machine learning, with a focus on the p
 - **Watermark Smoothing Attacks against Language Models**  
    **Hongyan Chang**, Hamed Hassani, and Reza Shokri  
    *Empirical Methods in Natural Language Processing (EMNLP) Findings, 2025*  
-   *WMARK@International Conference on Learning Representations (ICLR), 2025*
-   
-
+   *WMARK@International Conference on Learning Representations (ICLR), 2025*  
+   [[PDF](https://aclanthology.org/2025.findings-emnlp.264/)] [[Code](https://github.com/changhongyan123/watermark_smoothing)]   [[Poster]({{ site.url }}{{ site.baseurl }}/assets/pdf/EMNLP_2025_find-855_poster.pdf)]
 - **Context-Aware Membership Inference Attacks Against Pre-Trained Large Language Models**  
    **Hongyan Chang**, Ali Shahin Shamsabadi, Kleomenis Katevas, Hamed Haddadi, and Reza Shokri  
    *Empirical Methods in Natural Language Processing (EMNLP) Main, 2025*  
+   🎖️ **Outstanding Paper Award Nomination**  
    [[PDF](https://arxiv.org/abs/2409.13745)] [[Code](https://github.com/changhongyan123/context_aware_mia)] [[Blogpost](https://brave.com/blog/privacy-in-llms/)]
 
 - **Efficient Privacy Auditing in Federated Learning**  
@@ -94,7 +94,7 @@ My research interests are in trustworthy machine learning, with a focus on the p
 - PC member of ACM FAccT Conference 2022, 2023
  -->
 
-- 2026: VLDB (External Reviewer), ICLR (Reviewer), NDSS (AE Reviewer)  
+- 2026: VLDB (External Reviewer), ICLR (Reviewer), NDSS (AE Reviewer), USENIX (AE Reviewer) 
 - 2025: ICLR (Reviewer), NeurIPS (Reviewer), NDSS (AE Reviewer), USENIX Security (AE Reviewer)  
 - 2024: IEEE Security & Privacy (Reviewer, [Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/certificate.pdf))  
 - 2023: ACM FAccT (Reviewer)  
@@ -104,10 +104,12 @@ My research interests are in trustworthy machine learning, with a focus on the p
 ---
 
 ### Selected Awards
-- [Distinguished Reviewer Awards in USENIX 2025 (Artifact Evaluation)](https://secartifacts.github.io/usenixsec2025/awards#-distinguished-reviewer-awards:~:text=Hongyan%20Chang%2C%20National%20University%20of%20Singapore)
-- [Notable Reviewer in ICLR 2025](https://iclr.cc/Conferences/2025/Reviewers)
-- Best paper award at FAccT23 ([Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/facct_award.pdf))
+- [Distinguished Reviewer Awards](https://secartifacts.github.io/usenixsec2025/awards#-distinguished-reviewer-awards:~:text=Hongyan%20Chang%2C%20National%20University%20of%20Singapore) in USENIX 2025 (Artifact Evaluation)
+- [Notable Reviewer](https://iclr.cc/Conferences/2025/Reviewers) in ICLR 2025
+- Best paper award at FAccT in 2023 ([Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/facct_award.pdf))
 - Research Achievement Award in 2023 by NUS School of Computing
+- Funded participant of the [IPAM Graduate Summer School on Algorithmic Fairness](https://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-algorithmic-fairness/?tab=overview) in 2022
+  - Organized by Noa Dagan, Cynthia Dwork, and Guy N. Rothblum
 - National University of Singapore Research Scholarship (2018–2022)
 - First Prize of the 10th National Information Security Competition (2017) on fake news detection for WeiBo
 - National Scholarship (2015 & 2016, top 1%)
