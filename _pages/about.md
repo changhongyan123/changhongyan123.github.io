@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-# subtitle: Postdoc at MBZUAI. Trustworthy Machine Learning. Privacy & LLMs.
+# subtitle: Postdoc at FAIR, Meta. Trustworthy Machine Learning. Privacy & LLMs.
 
 profile:
   align: right
@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am **Hongyan Chang (常红燕)**, a postdoctoral researcher at MBZUAI, working with [Prof. Ting Yu](https://mbzuai.ac.ae/study/faculty/ting-yu/). I obtained my Ph.D. in Computer Science from the National University of Singapore, under the supervision of [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/). I received my Bachelor's degree in 2018 from the University of Electronic Science and Technology of China (UESTC), and was an exchange student at National Chiao Tung University in 2016.
+I am **Hongyan Chang (常红燕)**, a postdoctoral researcher at FAIR, Meta. Prior to joining Meta, I was working with [Prof. Ting Yu](https://mbzuai.ac.ae/study/faculty/ting-yu/) as a postdoctoral researcher at MBZUAI. I obtained my Ph.D. in Computer Science from the National University of Singapore, under the supervision of [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/). I received my Bachelor's degree in 2018 from the University of Electronic Science and Technology of China (UESTC), and was an exchange student at National Chiao Tung University in 2016.
 
 My research interests are in trustworthy machine learning, with a focus on the privacy and accountability of large language models (LLMs):
 
