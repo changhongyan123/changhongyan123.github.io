@@ -42,7 +42,7 @@ My research interests are in trustworthy machine learning, with a focus on the p
 ### Publications
 
 - **Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems**  
-   **Hongyan Chang**, Ergute Bao, Xinjian Luo, Ting Yu
+   **Hongyan Chang**, Ergute Bao, Xinjian Luo, Ting Yu  
    *USENIX Security Symposium (USENIX), 2026 (To appear)*
 
 - **Watermark Smoothing Attacks against Language Models**  
