@@ -41,6 +41,10 @@ My research interests are in trustworthy machine learning, with a focus on the p
 
 ### Publications
 
+- **Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems**  
+   **Hongyan Chang**, Ergute Bao, Xinjian Luo, Ting Yu
+   *USENIX Security Symposium (USENIX), 2026 (To appear)*
+
 - **Watermark Smoothing Attacks against Language Models**  
    **Hongyan Chang**, Hamed Hassani, and Reza Shokri  
    *Empirical Methods in Natural Language Processing (EMNLP) Findings, 2025*  
@@ -48,7 +52,7 @@ My research interests are in trustworthy machine learning, with a focus on the p
    [[PDF](https://aclanthology.org/2025.findings-emnlp.264/)] [[Code](https://github.com/changhongyan123/watermark_smoothing)]   [[Poster]({{ site.url }}{{ site.baseurl }}/assets/pdf/EMNLP_2025_find-855_poster.pdf)]
 - **Context-Aware Membership Inference Attacks Against Pre-Trained Large Language Models**  
    **Hongyan Chang**, Ali Shahin Shamsabadi, Kleomenis Katevas, Hamed Haddadi, and Reza Shokri  
-   *Empirical Methods in Natural Language Processing (EMNLP) Main, 2025*  
+   *Empirical Methods in Natural Language Processing (EMNLP) Main (Oral), 2025*  
    🎖️ **Outstanding Paper Award Nomination**  
    [[PDF](https://arxiv.org/abs/2409.13745)] [[Code](https://github.com/changhongyan123/context_aware_mia)] [[Blogpost](https://brave.com/blog/privacy-in-llms/)]
 
@@ -94,7 +98,7 @@ My research interests are in trustworthy machine learning, with a focus on the p
 - PC member of ACM FAccT Conference 2022, 2023
  -->
 
-- 2026: VLDB (External Reviewer), ICLR (Reviewer), NDSS (AE Reviewer), USENIX (AE Reviewer) 
+- 2026: VLDB (External Reviewer), ICLR (Reviewer), NDSS (AE Reviewer), USENIX (AE Reviewer), CCS (Reviewer)
 - 2025: ICLR (Reviewer), NeurIPS (Reviewer), NDSS (AE Reviewer), USENIX Security (AE Reviewer)  
 - 2024: IEEE Security & Privacy (Reviewer, [Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/certificate.pdf))  
 - 2023: ACM FAccT (Reviewer)  
