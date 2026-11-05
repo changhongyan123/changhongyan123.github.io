@@ -68,10 +68,8 @@ My work is organized around the following research questions.
 - VLDB, 2026
 - ACM CCS, 2026
 - IEEE Symposium on Security and Privacy, 2024 ([Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/certificate.pdf))
-
-**Artifact Evaluation Program Committee Member**
-- NDSS, 2025–2026
-- USENIX Security, 2025–2026
+- NDSS, 2025 (Artifact Evaluation), 2026 (Artifact Evaluation)
+- USENIX Security, 2025 (Artifact Evaluation), 2026 (Artifact Evaluation)
 
 **Reviewer**
 - ICLR, 2025–2026
