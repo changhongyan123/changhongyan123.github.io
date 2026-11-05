@@ -1,0 +1,30 @@
+[
+  {
+    "id": "security",
+    "number": "01",
+    "title": "Security of LLM systems & agents",
+    "question": "Can untrusted information redirect an AI system?",
+    "description": "We study indirect prompt injection end to end: from getting malicious content retrieved to compromising retrieval-augmented generation and agent workflows."
+  },
+  {
+    "id": "provenance",
+    "number": "02",
+    "title": "AI provenance & model accountability",
+    "question": "Can we trace AI-generated text and detect how it is reused?",
+    "description": "We develop watermarks for text provenance and model distillation detection, and evaluate their robustness to removal and changes to the model."
+  },
+  {
+    "id": "privacy",
+    "number": "03",
+    "title": "Privacy auditing & data protection",
+    "question": "What can models reveal about the data they learn from or process?",
+    "description": "We audit training-data membership, study image-input leakage in distributed multimodal inference, and design private text synthesis without a trusted curator."
+  },
+  {
+    "id": "fairness",
+    "number": "04",
+    "title": "Fairness & robust collaborative learning",
+    "question": "When does learning amplify bias, and how can collaboration be more robust?",
+    "description": "We examine the effects of training randomness, federated collaboration, adversarial manipulation, and fairness constraints on equity, robustness, and privacy."
+  }
+]

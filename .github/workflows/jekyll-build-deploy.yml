@@ -8,7 +8,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Pin the runner: legacy Jekyll native gems are incompatible with Ubuntu 26.04.
+    runs-on: ubuntu-24.04
     steps:
     - uses: actions/checkout@v3
     
