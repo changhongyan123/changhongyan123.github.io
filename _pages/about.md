@@ -32,7 +32,7 @@ latest_posts:
 
 I am **Hongyan Chang (常红燕)**, a postdoctoral researcher at FAIR, Meta, in the [Content Seal team](https://facebookresearch.github.io/content-seal/). My research focuses on **AI security**, particularly **agentic security**, **data and model distillation**, and **model provenance**. I study how AI systems can be attacked, how training data and model capabilities are reused, and how we can detect and mitigate these risks.
 
-Before joining Meta, I was a postdoctoral researcher at MBZUAI working with [Prof. Ting Yu](https://mbzuai.ac.ae/study/faculty/ting-yu/). I obtained my Ph.D. in Computer Science from the National University of Singapore, advised by [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/). I received my bachelor's degree in 2018 from the University of Electronic Science and Technology of China (UESTC), and was an exchange student at National Chiao Tung University in 2016.
+Before joining Meta, I was a postdoctoral researcher at MBZUAI working with [Prof. Ting Yu](https://mbzuai.ac.ae/study/faculty/ting-yu/). I obtained my Ph.D. in Computer Science from the National University of Singapore, advised by [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/). I received my bachelor's degree in 2018 from the University of Electronic Science and Technology of China (UESTC).
 
 I was a research intern at **Brave** (2024), mentored by [Ali Shahin Shamsabadi](https://alishahin.github.io/) and [Kleomenis Katevas](https://minoskt.github.io/), and at **[Intel's Security and Privacy Lab](https://www.intel.com/content/www/us/en/research/security.html)** (2022), mentored by [Brandon Edwards](https://www.usenix.org/conference/usenixsecurity24/speaker-or-organizer/brandon-edwards-intel-corporation) and [Anindya S. Paul](https://medicine.ufl.edu/profile/paul-anindya/).
 
@@ -61,19 +61,22 @@ My work is organized around the following research questions.
 
 ---
 
-### PC services
-<!-- - External Reviewer for VLDB 2026
-- PC member for ICLR 2025, NeurIPS 2025, ICLR 2026 
-- AE PC member of NDSS 2025, USENIX 2025, NDSS 2026
-- Reviewer of IEEE Security & Privacy 2024 ([Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/certificate.pdf))
-- PC member of ACM FAccT Conference 2022, 2023
- -->
+### Academic Service
 
-- 2026: VLDB (External Reviewer), ICLR (Reviewer), NDSS (AE Reviewer), USENIX (AE Reviewer), CCS (Reviewer)
-- 2025: ICLR (Reviewer), NeurIPS (Reviewer), NDSS (AE Reviewer), USENIX Security (AE Reviewer)  
-- 2024: IEEE Security & Privacy (Reviewer, [Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/certificate.pdf))  
-- 2023: ACM FAccT (Reviewer)  
-- 2022: ACM FAccT (Reviewer)
+**Program Committee Member**
+- [IEEE SaTML](https://satml.org/organization/), 2027
+- VLDB, 2026
+- ACM CCS, 2026
+- IEEE Symposium on Security and Privacy, 2024 ([Certificate]({{ site.url }}{{ site.baseurl }}/assets/pdf/certificate.pdf))
+
+**Artifact Evaluation Program Committee Member**
+- NDSS, 2025–2026
+- USENIX Security, 2025–2026
+
+**Reviewer**
+- ICLR, 2025–2026
+- NeurIPS, 2025
+- ACM FAccT, 2022–2023
 
 
 ---
@@ -115,28 +118,6 @@ My work is organized around the following research questions.
 
 ---
 
-
-### Talks
-
-**Watermark in Large Language Models**
-- WMARK@ICLR, 2025 (poster)
-
-**Privacy in Federated Learning**
-- USENIX, 2024
-
-**Fairness in Federated Learning**
-- FL@FM-Singapore, 2024
-- Brave, 2024
-- ICLR, 2024 (poster)
-- N-CRiPT, 2023
-
-**Trade-off in Privacy and Fairness**
-- Private AI Collaborative Research Institute held by Intel, 2022
-- CyberSec&AI, 2021
-- PrivacyCon, 2021 by the **US Federal Trade Commission (FTC)**
-
-
----
 
 <div style="text-align: center; margin-top: 30px; font-size: 0.9em; color: #666;">
   <img src="https://hits.sh/changhongyan123.github.io.svg?style=flat&label=visitors&color=2698ba" alt="Visitor counter">

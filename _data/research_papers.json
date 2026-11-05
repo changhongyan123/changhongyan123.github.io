@@ -77,8 +77,7 @@
     "status": "published",
     "summary": "Exposes watermark vulnerabilities through confidence-guided edits that remove statistical signals while preserving text quality.",
     "sort_date": "2025-11-01",
-    "code": "https://github.com/changhongyan123/watermark_smoothing",
-    "venue_note": "Also presented at WMARK @ ICLR 2025."
+    "code": "https://github.com/changhongyan123/watermark_smoothing"
   },
   {
     "id": "contextmia",
@@ -137,7 +136,13 @@
     "status": "published",
     "summary": "Explains how local bias spreads through federated training and increases dependence on sensitive attributes.",
     "sort_date": "2023-05-01",
-    "code": "https://github.com/privacytrustlab/bias_in_FL"
+    "code": "https://github.com/privacytrustlab/bias_in_FL",
+    "talks": [
+      "FL@FM-Singapore, 2024"
+    ],
+    "presentations": [
+      "ICLR, 2024 (poster)"
+    ]
   },
   {
     "id": "cronus",
@@ -165,7 +170,12 @@
     "status": "published",
     "summary": "Shows that fairness constraints can increase membership leakage disproportionately for underprivileged groups.",
     "sort_date": "2021-09-01",
-    "slides": "https://www.ieee-security.org/TC/EuroSP2021/slides/Hongyan%20Chang%20-%20Hongyan%20Chang-On%20the%20Privacy%20Risks%20of%20Algorithmic%20Fairness.pdf"
+    "slides": "https://www.ieee-security.org/TC/EuroSP2021/slides/Hongyan%20Chang%20-%20Hongyan%20Chang-On%20the%20Privacy%20Risks%20of%20Algorithmic%20Fairness.pdf",
+    "invited_talks": [
+      "Private AI Collaborative Research Institute held by Intel, 2022",
+      "CyberSec&AI, 2021",
+      "PrivacyCon, 2021 by the US Federal Trade Commission (FTC)"
+    ]
   },
   {
     "id": "adversarialbias",

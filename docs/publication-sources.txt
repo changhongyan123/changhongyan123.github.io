@@ -77,3 +77,18 @@ Current team link added at the user's request:
 https://facebookresearch.github.io/content-seal/
 Official repository confirms this is FAIR's Content Seal research:
 https://github.com/facebookresearch/content-seal
+
+Academic service and paper-related talks — updated 2026-11-05
+Database and security service titles follow the author's role clarification; artifact evaluation committee service retains the Artifact Evaluation qualifier. AI conference service is labeled Reviewer.
+IEEE SaTML 2027: Program Committee lists Chang Hongyan, Meta:
+https://satml.org/organization/
+Artifact Evaluation Committee membership confirmed for NDSS 2025, NDSS 2026, and USENIX Security 2025; the existing 2026 USENIX service was retained:
+https://secartifacts.github.io/ndss2025/organizers
+https://secartifacts.github.io/ndss2026/organizers
+https://secartifacts.github.io/usenixsec2025/organizers
+PrivacyCon 2021 officially lists On the Privacy Risks of Algorithmic Fairness. The Intel 2022 and CyberSec&AI 2021 talks follow the author's existing topic grouping and requested selection:
+https://www.ftc.gov/news-events/events/2021/07/privacycon-2021
+FL@FM-Singapore 2024 officially lists Hongyan's Briefings talk, Bias Propagation in Federated Learning, so the page labels it Talk:
+https://federated-learning.org/fl@fm-singapore-2024/
+The author-requested ICLR 2024 poster is a separate presentation note; the paper's ICLR 2023 venue remains as recorded by the authors:
+https://arxiv.org/abs/2309.02160

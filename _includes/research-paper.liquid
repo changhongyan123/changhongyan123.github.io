@@ -8,5 +8,8 @@
     {% if paper.equal_contribution %}(* Equal contribution)<br>{% endif %}
     {% if paper.award %}<strong>{{ paper.award | escape }}</strong><br>{% endif %}
     [<a href="{{ paper.url | escape }}">Paper</a>]{% if paper.code %} [<a href="{{ paper.code | escape }}">Code</a>]{% endif %}{% if paper.blog %} [<a href="{{ paper.blog | escape }}">Blogpost</a>]{% endif %}{% if paper.poster %} [<a href="{{ paper.poster | relative_url }}">Poster</a>]{% endif %}{% if paper.slides %} [<a href="{{ paper.slides | escape }}">Slides</a>]{% endif %}
+    {% if paper.invited_talks %}<br><em>Invited talks:</em> {% for talk in paper.invited_talks %}{{ talk | escape }}{% unless forloop.last %}; {% endunless %}{% endfor %}.{% endif %}
+    {% if paper.talks %}<br><em>Talk{% if paper.talks.size > 1 %}s{% endif %}:</em> {% for talk in paper.talks %}{{ talk | escape }}{% unless forloop.last %}; {% endunless %}{% endfor %}.{% endif %}
+    {% if paper.presentations %}<br><em>Presentation{% if paper.presentations.size > 1 %}s{% endif %}:</em> {% for presentation in paper.presentations %}{{ presentation | escape }}{% unless forloop.last %}; {% endunless %}{% endfor %}.{% endif %}
   </p>
 </li>
