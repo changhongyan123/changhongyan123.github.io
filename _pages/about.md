@@ -34,7 +34,7 @@ I am **Hongyan Chang (常红燕)**, a postdoctoral researcher at FAIR, Meta, in 
 
 Before joining Meta, I was a postdoctoral researcher at MBZUAI working with [Prof. Ting Yu](https://mbzuai.ac.ae/study/faculty/ting-yu/). I obtained my Ph.D. in Computer Science from the National University of Singapore, advised by [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/). I received my bachelor's degree in 2018 from the University of Electronic Science and Technology of China (UESTC), and was an exchange student at National Chiao Tung University in 2016.
 
-I was a research intern at **Brave** (2024), mentored by [Ali Shahin Shamsabadi](https://alishahin.github.io/), [Kleomenis Katevas](https://minoskt.github.io/), and [Hamed Haddadi](https://haddadi.github.io/about/), and at **[Intel's Security and Privacy Lab](https://www.intel.com/content/www/us/en/research/security.html)** (2022), mentored by [Brandon Edwards](https://www.usenix.org/conference/usenixsecurity24/speaker-or-organizer/brandon-edwards-intel-corporation) and [Anindya S. Paul](https://medicine.ufl.edu/profile/paul-anindya/).
+I was a research intern at **Brave** (2024), mentored by [Ali Shahin Shamsabadi](https://alishahin.github.io/) and [Kleomenis Katevas](https://minoskt.github.io/), and at **[Intel's Security and Privacy Lab](https://www.intel.com/content/www/us/en/research/security.html)** (2022), mentored by [Brandon Edwards](https://www.usenix.org/conference/usenixsecurity24/speaker-or-organizer/brandon-edwards-intel-corporation) and [Anindya S. Paul](https://medicine.ufl.edu/profile/paul-anindya/).
 
 ### Research
 
