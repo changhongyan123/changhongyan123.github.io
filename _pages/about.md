@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+research_groups: true
 # subtitle: Postdoc at FAIR, Meta. Trustworthy Machine Learning. Privacy & LLMs.
 
 profile:
@@ -37,20 +38,25 @@ I was a research intern at **Brave** (2024), mentored by [Ali Shahin Shamsabadi]
 
 ### Research
 
-My work is organized around the following research questions. See also [publications by year]({{ '/publications/' | relative_url }}) and [Google Scholar](https://scholar.google.com/citations?user=5d1AHgIAAAAJ).
+My work is organized around the following research questions.
 
+<div class="research-groups">
 {% for theme in site.data.research_themes %}
-#### {{ theme.title }}
-
-**{{ theme.question }}** {{ theme.description }}
-
-<ul>
+<section class="research-group" aria-labelledby="research-{{ theme.id | escape }}">
+  <header class="research-group-heading">
+    <h4 id="research-{{ theme.id | escape }}">{{ theme.title | escape }}</h4>
+    <p class="research-question">{{ theme.question | escape }}</p>
+  </header>
+  <p class="research-description">{{ theme.description | escape }}</p>
+<ul class="research-papers">
 {% assign theme_papers = site.data.research_papers | where: 'theme', theme.id | sort: 'sort_date' | reverse %}
 {% for paper in theme_papers %}
 {% include research-paper.liquid paper=paper %}
 {% endfor %}
 </ul>
+</section>
 {% endfor %}
+</div>
 
 ---
 

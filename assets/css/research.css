@@ -1,0 +1,70 @@
+/* Research groups on the homepage, using the existing al-folio theme. */
+.research-groups {
+  clear: both;
+  margin-top: 1.75rem;
+}
+
+.research-group {
+  margin: 0 0 2.25rem;
+  scroll-margin-top: 5rem;
+}
+
+.research-group + .research-group {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 2rem;
+}
+
+.research-group-heading {
+  border-left: 3px solid var(--global-theme-color);
+  padding-left: 1rem;
+  margin-bottom: 0.9rem;
+}
+
+.research-group-heading h4 {
+  margin: 0 0 0.4rem;
+  color: var(--global-text-color);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.35;
+  scroll-margin-top: 5rem;
+}
+
+.research-question {
+  margin: 0;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.research-description {
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+}
+
+.research-papers {
+  padding-left: 1.3rem;
+  margin-bottom: 0;
+}
+
+.research-papers > li {
+  padding-left: 0.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.research-papers > li:last-child {
+  margin-bottom: 0;
+}
+
+.research-papers > li > p {
+  margin-bottom: 0;
+  line-height: 1.55;
+}
+
+@media (max-width: 575px) {
+  .research-group-heading {
+    padding-left: 0.75rem;
+  }
+
+  .research-group-heading h4 {
+    font-size: 1.2rem;
+  }
+}
