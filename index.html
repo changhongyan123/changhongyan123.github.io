@@ -19,7 +19,7 @@
   
 </title>
 <meta name="author" content="Hongyan Chang">
-<meta name="description" content="Personal academic website of Hongyan Chang (常红燕), postdoc researcher at MBZUAI working on trustworthy machine learning and privacy of large language models.
+<meta name="description" content="Hongyan Chang (常红燕), postdoctoral researcher at FAIR, Meta. Research in AI security, agentic security, model distillation detection, provenance, and privacy auditing.
 ">
 
   <meta name="keywords" content="trustworthy-machine-learning, privacy, large-language-models, federated-learning, fairness, membership-inference">
@@ -73,7 +73,7 @@
   <link rel="shortcut icon" href="/assets/img/prof_pic.png">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://changhongyan123.github.io/">
+<link rel="canonical" href="https://hongyanchang.com/">
 
 <!-- Dark Mode -->
 <script src="/assets/js/theme.js"></script>
@@ -245,7 +245,7 @@
     -->
     
     <img
-      src="/assets/img/myself.jpg"
+      src="/assets/img/hongyan-2026.jpg"
       
         class="img-fluid z-depth-1
       rounded"
@@ -258,7 +258,7 @@
       
       
       
-        alt="myself.jpg"
+        alt="hongyan-2026.jpg"
       
       
       
@@ -284,71 +284,260 @@
       </div>
     
 
-    <div class="clearfix"><p>I am <strong>Hongyan Chang (常红燕)</strong>, a postdoctoral researcher at FAIR, Meta. Prior to joining Meta, I was working with <a href="https://mbzuai.ac.ae/study/faculty/ting-yu/">Prof. Ting Yu</a> as a postdoctoral researcher at MBZUAI. I obtained my Ph.D. in Computer Science from the National University of Singapore, under the supervision of <a href="https://www.comp.nus.edu.sg/~reza/">Prof. Reza Shokri</a>. I received my Bachelor’s degree in 2018 from the University of Electronic Science and Technology of China (UESTC), and was an exchange student at National Chiao Tung University in 2016.</p>
+    <div class="clearfix"><p>I am <strong>Hongyan Chang (常红燕)</strong>, a postdoctoral researcher at FAIR, Meta, in the <a href="https://facebookresearch.github.io/content-seal/">Content Seal team</a>. My research focuses on <strong>AI security</strong>, particularly <strong>agentic security</strong>, <strong>data and model distillation</strong>, and <strong>model provenance</strong>. I study how AI systems can be attacked, how training data and model capabilities are reused, and how we can detect and mitigate these risks.</p>
 
-<p>My research interests are in trustworthy machine learning, with a focus on the privacy and accountability of large language models (LLMs):</p>
+<p>Before joining Meta, I was a postdoctoral researcher at MBZUAI working with <a href="https://mbzuai.ac.ae/study/faculty/ting-yu/">Prof. Ting Yu</a>. I obtained my Ph.D. in Computer Science from the National University of Singapore, advised by <a href="https://www.comp.nus.edu.sg/~reza/">Prof. Reza Shokri</a>. I received my bachelor’s degree in 2018 from the University of Electronic Science and Technology of China (UESTC), and was an exchange student at National Chiao Tung University in 2016.</p>
+
+<p>I was a research intern at <strong>Brave</strong> (2024), mentored by <a href="https://alishahin.github.io/">Ali Shahin Shamsabadi</a>, <a href="https://minoskt.github.io/">Kleomenis Katevas</a>, and <a href="https://haddadi.github.io/about/">Hamed Haddadi</a>, and at <strong><a href="https://www.intel.com/content/www/us/en/research/security.html">Intel’s Security and Privacy Lab</a></strong> (2022), mentored by <a href="https://www.usenix.org/conference/usenixsecurity24/speaker-or-organizer/brandon-edwards-intel-corporation">Brandon Edwards</a> and <a href="https://medicine.ufl.edu/profile/paul-anindya/">Anindya S. Paul</a>.</p>
+
+<h3 id="research">Research</h3>
+
+<p>My work is organized around the following research questions. See also <a href="/publications/">publications by year</a> and <a href="https://scholar.google.com/citations?user=5d1AHgIAAAAJ">Google Scholar</a>.</p>
+
+<h4 id="security-of-llm-systems--agents">Security of LLM systems &amp; agents</h4>
+
+<p><strong>Can untrusted information redirect an AI system?</strong> We study indirect prompt injection end to end: from getting malicious content retrieved to compromising retrieval-augmented generation and agent workflows.</p>
 
 <ul>
-  <li><strong>Evaluating the risks of LLM systems</strong>: Understanding and quantifying vulnerabilities in modern language models and their systems</li>
-  <li><strong>Machine-generated text detection</strong>: Developing methods to identify AI-generated content while preserving utility</li>
+
+
+
+<li id="retrieval">
+  <p>
+    <strong>Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems</strong><br />
+    <strong>Hongyan Chang</strong>, Ergute Bao, Xinjian Luo, Ting Yu<br />
+    <em>USENIX Security 2026</em><br />
+    
+    
+    
+    [<a href="https://www.usenix.org/conference/usenixsecurity26/presentation/chang-hongyan">Paper</a>]
+  </p>
+</li>
+
+
 </ul>
 
-<h3 id="publications">Publications</h3>
+<h4 id="ai-provenance--model-accountability">AI provenance &amp; model accountability</h4>
+
+<p><strong>Can we trace AI-generated text and detect how it is reused?</strong> We develop watermarks for text provenance and model distillation detection, and evaluate their robustness to removal and changes to the model.</p>
 
 <ul>
-  <li>
-    <p><strong>Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems</strong><br />
- <strong>Hongyan Chang</strong>, Ergute Bao, Xinjian Luo, Ting Yu<br />
- <em>USENIX Security Symposium (USENIX), 2026 (To appear)</em></p>
-  </li>
-  <li><strong>Watermark Smoothing Attacks against Language Models</strong><br />
- <strong>Hongyan Chang</strong>, Hamed Hassani, and Reza Shokri<br />
- <em>Empirical Methods in Natural Language Processing (EMNLP) Findings, 2025</em><br />
- <em>WMARK@International Conference on Learning Representations (ICLR), 2025</em><br />
- [<a href="https://aclanthology.org/2025.findings-emnlp.264/">PDF</a>] [<a href="https://github.com/changhongyan123/watermark_smoothing">Code</a>]   [<a href="https://changhongyan123.github.io/assets/pdf/EMNLP_2025_find-855_poster.pdf">Poster</a>]</li>
-  <li>
-    <p><strong>Context-Aware Membership Inference Attacks Against Pre-Trained Large Language Models</strong><br />
- <strong>Hongyan Chang</strong>, Ali Shahin Shamsabadi, Kleomenis Katevas, Hamed Haddadi, and Reza Shokri<br />
- <em>Empirical Methods in Natural Language Processing (EMNLP) Main (Oral), 2025</em><br />
- 🎖️ <strong>Outstanding Paper Award Nomination</strong><br />
- [<a href="https://arxiv.org/abs/2409.13745">PDF</a>] [<a href="https://github.com/changhongyan123/context_aware_mia">Code</a>] [<a href="https://brave.com/blog/privacy-in-llms/">Blogpost</a>]</p>
-  </li>
-  <li>
-    <p><strong>Efficient Privacy Auditing in Federated Learning</strong><br />
- <strong>Hongyan Chang</strong>, Brandon Edwards, Anindya S. Paul, and Reza Shokri<br />
- <em>USENIX Security Symposium (USENIX), 2024</em><br />
- [<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/chang">PDF</a>] [<a href="https://github.com/changhongyan123/privacy_auditing_in_FL">Code</a>]</p>
-  </li>
-  <li>
-    <p><strong>On The Impact of Machine Learning Randomness on Group Fairness</strong><br />
- Prakhar Ganesh, <strong>Hongyan Chang</strong>, Martin Strobel, and Reza Shokri<br />
- <em>ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2023</em><br />
- 🏆 <strong>Best Paper Award</strong><br />
- [<a href="https://dl.acm.org/doi/10.1145/3593013.3594116">PDF</a>] [<a href="https://github.com/privacytrustlab/Data-Order-Randomness-versus-Group-Fairness">Code</a>]</p>
-  </li>
-  <li>
-    <p><strong>Bias Propagation in Federated Learning</strong><br />
- <strong>Hongyan Chang</strong> and Reza Shokri<br />
- <em>International Conference on Learning Representations (ICLR), 2023</em><br />
- [<a href="https://openreview.net/pdf?id=V7CYzdruWdm">PDF</a>] [<a href="https://github.com/privacytrustlab/bias_in_FL">Code</a>]</p>
-  </li>
-  <li>
-    <p><strong>Cronus: Robust and Heterogeneous Collaborative Learning with Black-box Knowledge Transfer</strong><br />
- <strong>Hongyan Chang</strong>*, Virat Shejwalkar*, Reza Shokri, and Amir Houmansadr<br />
- <em>NFFL@Neural Information Processing Systems (NeurIPS), 2021</em><br />
- (*Equal contribution)<br />
- [<a href="https://neurips2021workshopfl.github.io/NFFL-2021/papers/2021/Chang2021.pdf">PDF</a>]</p>
-  </li>
-  <li>
-    <p><strong>On the Privacy Risks of Algorithmic Fairness</strong><br />
- <strong>Hongyan Chang</strong> and Reza Shokri<br />
- <em>6th IEEE European Symposium on Security and Privacy (Euro S&amp;P), 2021</em><br />
- [<a href="https://arxiv.org/pdf/2011.03731">PDF</a>] [<a href="https://www.ieee-security.org/TC/EuroSP2021/slides/Hongyan%20Chang%20-%20Hongyan%20Chang-On%20the%20Privacy%20Risks%20of%20Algorithmic%20Fairness.pdf">Slides</a>]</p>
-  </li>
-  <li><strong>On Adversarial Bias and the Robustness of Fair Machine Learning</strong><br />
- <strong>Hongyan Chang</strong>, Ta Duy Nguyen, Sasi Kumar Murakonda, Ehsan Kazemi, and Reza Shokri<br />
- <em>2020</em><br />
- [<a href="https://arxiv.org/pdf/2006.08669">PDF</a>] [<a href="https://github.com/privacytrustlab/adversarial_bias">Code</a>]</li>
+
+
+
+<li id="textseal2">
+  <p>
+    <strong>TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races</strong><br />
+    Tom Sander, Pierre Fernandez, Itai Gat, Haiming Bao, Jiaxin Shi, Jason Park, Valeriu Lacatusu, Sylvestre-Alvise Rebuffi, <strong>Hongyan Chang</strong>, Hady Elsahar, Tomáš Souček, Tuan Tran, Surya Parimi, Alexandre Mourachko<br />
+    <em>Preprint 2026</em><br />
+    
+    
+    
+    [<a href="https://arxiv.org/abs/2610.40613">Paper</a>] [<a href="https://github.com/facebookresearch/textseal">Code</a>]
+  </p>
+</li>
+
+
+
+<li id="basins">
+  <p>
+    <strong>Watermark Basins: Black-Box Detection of Distilled LLMs</strong><br />
+    <strong>Hongyan Chang</strong>, Hady Elsahar, Tom Sander, Pierre Fernandez, Saeed Mahloujifar, Sylvestre-Alvise Rebuffi, Tomáš Souček, Tuan Tran, Valeriu Lacatusu, Surya Parimi, Rashel Moritz, Vanessa Stark, Alexandre Mourachko<br />
+    <em>Preprint 2026</em><br />
+    
+    
+    
+    [<a href="https://arxiv.org/abs/2610.37266">Paper</a>]
+  </p>
+</li>
+
+
+
+<li id="textseal">
+  <p>
+    <strong>TextSeal: A Localized LLM Watermark for Provenance &amp; Distillation Protection</strong><br />
+    Tom Sander, <strong>Hongyan Chang</strong>, Tomáš Souček, Tuan Tran, Valeriu Lacatusu, Sylvestre-Alvise Rebuffi, Alexandre Mourachko, Surya Parimi, Christophe Ropers, Rashel Moritz, Vanessa Stark, Hady Elsahar, Pierre Fernandez<br />
+    <em>NeurIPS 2026 (accepted / to appear)</em><br />
+    
+    
+    
+    [<a href="https://arxiv.org/abs/2605.12456">Paper</a>] [<a href="https://github.com/facebookresearch/textseal">Code</a>]
+  </p>
+</li>
+
+
+
+<li id="posthoc">
+  <p>
+    <strong>How Good is Post-Hoc Watermarking With Language Model Rephrasing?</strong><br />
+    Pierre Fernandez, Tom Sander, Hady Elsahar, <strong>Hongyan Chang</strong>, Tomáš Souček, Valeriu Lacatusu, Tuan Tran, Sylvestre-Alvise Rebuffi, Alexandre Mourachko<br />
+    <em>ICML 2026</em><br />
+    
+    
+    
+    [<a href="https://arxiv.org/abs/2512.16904">Paper</a>] [<a href="https://github.com/facebookresearch/textseal">Code</a>]
+  </p>
+</li>
+
+
+
+<li id="smoothing">
+  <p>
+    <strong>Watermark Smoothing Attacks against Language Models</strong><br />
+    <strong>Hongyan Chang</strong>, Hamed Hassani, Reza Shokri<br />
+    <em>EMNLP Findings 2025</em><br />
+    <em>Also presented at WMARK @ ICLR 2025.</em><br />
+    
+    
+    [<a href="https://aclanthology.org/2025.findings-emnlp.264/">Paper</a>] [<a href="https://github.com/changhongyan123/watermark_smoothing">Code</a>]
+  </p>
+</li>
+
+
+</ul>
+
+<h4 id="privacy-auditing--data-protection">Privacy auditing &amp; data protection</h4>
+
+<p><strong>What can models reveal about the data they learn from or process?</strong> We audit training-data membership, study image-input leakage in distributed multimodal inference, and design private text synthesis without a trusted curator.</p>
+
+<ul>
+
+
+
+<li id="synthesis">
+  <p>
+    <strong>Distributed and Private Textual Data Synthesis from Embeddings</strong><br />
+    Ergute Bao, <strong>Hongyan Chang</strong>, Ali Shahin Shamsabadi, Ting Yu, Xiaokui Xiao<br />
+    <em>PETS 2027 (accepted / to appear)</em><br />
+    
+    
+    
+    [<a href="https://arxiv.org/abs/2609.10104">Paper</a>]
+  </p>
+</li>
+
+
+
+<li id="imageprompt">
+  <p>
+    <strong>Image Prompt Reconstruction Attacks on Distributed MLLM Inference Frameworks</strong><br />
+    Xinjian Luo, <strong>Hongyan Chang</strong>, Jianxin Wei, Yuncheng Wu, Xiaofeng Gao, Meikang Qiu, Ting Yu, Xue Liu<br />
+    <em>Preprint 2026</em><br />
+    
+    
+    
+    [<a href="https://arxiv.org/abs/2606.18710">Paper</a>]
+  </p>
+</li>
+
+
+
+<li id="contextmia">
+  <p>
+    <strong>Context-Aware Membership Inference Attacks against Pre-trained Large Language Models</strong><br />
+    <strong>Hongyan Chang</strong>, Ali Shahin Shamsabadi, Kleomenis Katevas, Hamed Haddadi, Reza Shokri<br />
+    <em>EMNLP 2025 · Oral</em><br />
+    
+    
+    <strong>Outstanding Paper Award nomination</strong><br />
+    [<a href="https://aclanthology.org/2025.emnlp-main.370/">Paper</a>] [<a href="https://github.com/changhongyan123/context_aware_mia">Code</a>] [<a href="https://brave.com/blog/privacy-in-llms/">Blogpost</a>]
+  </p>
+</li>
+
+
+
+<li id="flaudit">
+  <p>
+    <strong>Efficient Privacy Auditing in Federated Learning</strong><br />
+    <strong>Hongyan Chang</strong>, Brandon Edwards, Anindya S. Paul, Reza Shokri<br />
+    <em>USENIX Security 2024</em><br />
+    
+    
+    
+    [<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/chang">Paper</a>] [<a href="https://github.com/changhongyan123/privacy_auditing_in_FL">Code</a>]
+  </p>
+</li>
+
+
+</ul>
+
+<h4 id="fairness--robust-collaborative-learning">Fairness &amp; robust collaborative learning</h4>
+
+<p><strong>When does learning amplify bias, and how can collaboration be more robust?</strong> We examine the effects of training randomness, federated collaboration, adversarial manipulation, and fairness constraints on equity, robustness, and privacy.</p>
+
+<ul>
+
+
+
+<li id="randomness">
+  <p>
+    <strong>On the Impact of Machine Learning Randomness on Group Fairness</strong><br />
+    Prakhar Ganesh, <strong>Hongyan Chang</strong>, Martin Strobel, Reza Shokri<br />
+    <em>FAccT 2023</em><br />
+    
+    
+    <strong>Best Paper Award</strong><br />
+    [<a href="https://arxiv.org/abs/2307.04138">Paper</a>] [<a href="https://github.com/privacytrustlab/Data-Order-Randomness-versus-Group-Fairness">Code</a>]
+  </p>
+</li>
+
+
+
+<li id="biasprop">
+  <p>
+    <strong>Bias Propagation in Federated Learning</strong><br />
+    <strong>Hongyan Chang</strong>, Reza Shokri<br />
+    <em>ICLR 2023</em><br />
+    
+    
+    
+    [<a href="https://arxiv.org/abs/2309.02160">Paper</a>] [<a href="https://github.com/privacytrustlab/bias_in_FL">Code</a>]
+  </p>
+</li>
+
+
+
+<li id="cronus">
+  <p>
+    <strong>Cronus: Robust and Heterogeneous Collaborative Learning with Black-Box Knowledge Transfer</strong><br />
+    <strong>Hongyan Chang</strong>*, Virat Shejwalkar*, Reza Shokri, Amir Houmansadr<br />
+    <em>NFFL @ NeurIPS 2021 · Workshop</em><br />
+    
+    (* Equal contribution)<br />
+    
+    [<a href="https://neurips2021workshopfl.github.io/NFFL-2021/papers/2021/Chang2021.pdf">Paper</a>]
+  </p>
+</li>
+
+
+
+<li id="fairprivacy">
+  <p>
+    <strong>On the Privacy Risks of Algorithmic Fairness</strong><br />
+    <strong>Hongyan Chang</strong>, Reza Shokri<br />
+    <em>IEEE EuroS&amp;P 2021</em><br />
+    
+    
+    
+    [<a href="https://arxiv.org/abs/2011.03731">Paper</a>] [<a href="https://www.ieee-security.org/TC/EuroSP2021/slides/Hongyan%20Chang%20-%20Hongyan%20Chang-On%20the%20Privacy%20Risks%20of%20Algorithmic%20Fairness.pdf">Slides</a>]
+  </p>
+</li>
+
+
+
+<li id="adversarialbias">
+  <p>
+    <strong>On Adversarial Bias and the Robustness of Fair Machine Learning</strong><br />
+    <strong>Hongyan Chang</strong>, Ta Duy Nguyen, Sasi Kumar Murakonda, Ehsan Kazemi, Reza Shokri<br />
+    <em>Preprint 2020</em><br />
+    
+    
+    
+    [<a href="https://arxiv.org/abs/2006.08669">Paper</a>] [<a href="https://github.com/privacytrustlab/adversarial_bias">Code</a>]
+  </p>
+</li>
+
+
 </ul>
 
 <hr />
@@ -357,14 +546,14 @@
 <!-- - External Reviewer for VLDB 2026
 - PC member for ICLR 2025, NeurIPS 2025, ICLR 2026 
 - AE PC member of NDSS 2025, USENIX 2025, NDSS 2026
-- Reviewer of IEEE Security & Privacy 2024 ([Certificate](https://changhongyan123.github.io/assets/pdf/certificate.pdf))
+- Reviewer of IEEE Security & Privacy 2024 ([Certificate](https://hongyanchang.com/assets/pdf/certificate.pdf))
 - PC member of ACM FAccT Conference 2022, 2023
  -->
 
 <ul>
   <li>2026: VLDB (External Reviewer), ICLR (Reviewer), NDSS (AE Reviewer), USENIX (AE Reviewer), CCS (Reviewer)</li>
   <li>2025: ICLR (Reviewer), NeurIPS (Reviewer), NDSS (AE Reviewer), USENIX Security (AE Reviewer)</li>
-  <li>2024: IEEE Security &amp; Privacy (Reviewer, <a href="https://changhongyan123.github.io/assets/pdf/certificate.pdf">Certificate</a>)</li>
+  <li>2024: IEEE Security &amp; Privacy (Reviewer, <a href="https://hongyanchang.com/assets/pdf/certificate.pdf">Certificate</a>)</li>
   <li>2023: ACM FAccT (Reviewer)</li>
   <li>2022: ACM FAccT (Reviewer)</li>
 </ul>
@@ -375,7 +564,7 @@
 <ul>
   <li><a href="https://secartifacts.github.io/usenixsec2025/awards#-distinguished-reviewer-awards:~:text=Hongyan%20Chang%2C%20National%20University%20of%20Singapore">Distinguished Reviewer Awards</a> in USENIX 2025 (Artifact Evaluation)</li>
   <li><a href="https://iclr.cc/Conferences/2025/Reviewers">Notable Reviewer</a> in ICLR 2025</li>
-  <li>Best paper award at FAccT in 2023 (<a href="https://changhongyan123.github.io/assets/pdf/facct_award.pdf">Certificate</a>)</li>
+  <li>Best paper award at FAccT in 2023 (<a href="https://hongyanchang.com/assets/pdf/facct_award.pdf">Certificate</a>)</li>
   <li>Research Achievement Award in 2023 by NUS School of Computing</li>
   <li>Funded participant of the <a href="https://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-on-algorithmic-fairness/?tab=overview">IPAM Graduate Summer School on Algorithmic Fairness</a> in 2022
     <ul>
@@ -393,11 +582,15 @@
 
 <ul>
   <li>
-    <p><strong>Privacy Meter @ NUS</strong>: A system for evaluating the privacy risks of machine learning models. <i class="fa-brands fa-github"></i> <a href="https://github.com/privacytrustlab/ml_privacy_meter">GitHub</a> (500+ stars)<br />
+    <p><strong>TextSeal @ Meta</strong>: Text watermarking for provenance and distillation detection. <a href="https://github.com/facebookresearch/textseal">GitHub</a>.<br />
+<strong>My role</strong>: contributing to the research, including the watermark-based distillation detection study in TextSeal.</p>
+  </li>
+  <li>
+    <p><strong>Privacy Meter @ NUS</strong>: A system for evaluating the privacy risks of machine learning models. <i class="fa-brands fa-github"></i> <a href="https://github.com/privacytrustlab/ml_privacy_meter">GitHub</a><br />
 <strong>My role</strong>: leading the development team and spearheading the initial <a href="https://pypi.org/project/Privacy-Meter/">1.0.1 release</a>.</p>
   </li>
   <li>
-    <p><strong>OpenFL @ Intel</strong>: Auditing privacy risks in real-time. <i class="fa-brands fa-github"></i> <a href="https://github.com/intel/openfl/tree/develop/openfl-tutorials/experimental/Privacy_Meter">GitHub</a>. <a href="https://www.intel.com/content/www/us/en/developer/articles/technical/how-openfl-and-privacy-meter-empower-data-privacy.html">Blogpost</a>.<br />
+    <p><strong>OpenFL @ Intel</strong>: Auditing privacy risks in real-time. <i class="fa-brands fa-github"></i> <a href="https://github.com/securefederatedai/openfederatedlearning/tree/develop/openfl-tutorials/experimental/workflow/Privacy_Meter">GitHub</a>. <a href="https://www.intel.com/content/www/us/en/developer/articles/technical/how-openfl-and-privacy-meter-empower-data-privacy.html">Blogpost</a>.<br />
 <strong>My role</strong>: leading the integration of privacy meter into OpenFL.</p>
   </li>
 </ul>

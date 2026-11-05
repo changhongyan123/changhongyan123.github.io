@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://changhongyan123.github.io/sitemap.xml
+Sitemap: https://hongyanchang.com/sitemap.xml
