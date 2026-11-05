@@ -71,11 +71,10 @@ The old Smoothing poster URL was omitted because its target was unavailable and 
 
 Biography / internship mentor links (verified 2026-11-05)
 User requested including internship mentors. Internship names and years were checked against the user-supplied CV; only those professional facts were used.
-Brave, 2024: Ali Shahin Shamsabadi, Kleomenis Katevas, Hamed Haddadi.
+Brave, 2024: Ali Shahin Shamsabadi, Kleomenis Katevas. The user clarified that Hamed Haddadi was not a mentor.
 Ali also lists Hongyan as Brave PhD Intern, summer 2024:
 https://alishahin.github.io/
 https://minoskt.github.io/
-https://haddadi.github.io/about/
 Intel Security and Privacy Lab, 2022: Brandon Edwards, Anindya S. Paul. One Intel internship is documented.
 https://www.intel.com/content/www/us/en/research/security.html
 https://www.usenix.org/conference/usenixsecurity24/speaker-or-organizer/brandon-edwards-intel-corporation
