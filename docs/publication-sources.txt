@@ -1,14 +1,12 @@
 Publication evidence — verified 2026-11-05
 
 Scope
-15 research works, using primary publication records and coauthor announcements.
-The existing live homepage had 9 works; 6 public works were added.
+13 selected research works, using primary publication records and coauthor announcements.
+The existing live homepage had 9 works; 4 public works were added to the selected list.
 Google Scholar profile 5d1AHgIAAAAJ could not be fetched directly by the research browser, including the English/date-sorted variant. This is not a claim of an exhaustive Scholar synchronization.
 https://scholar.google.com/citations?user=5d1AHgIAAAAJ&hl=en&sortby=pubdate
 
 New works
-TextSeal2 — title/authors/preprint; submitted 2026-10-29:
-https://arxiv.org/abs/2610.40613
 Watermark Basins — title/authors/preprint; submitted 2026-10-27:
 https://arxiv.org/abs/2610.37266
 Distributed and Private Textual Data Synthesis from Embeddings — title/authors, September 2026 preprint:
@@ -23,12 +21,7 @@ https://arxiv.org/abs/2605.12456
 NeurIPS 2026 acceptance announced September 24 by first author and September 26 by last author; keep accepted until proceedings are verified:
 https://sandertom.github.io/
 https://pierrefdz.github.io/
-Post-Hoc Watermarking — title/authors, first submitted December 2025:
-https://arxiv.org/abs/2512.16904
-ICML 2026 acceptance announced April 30; title present in the official 2026 program:
-https://sandertom.github.io/
-https://icml.cc/Downloads/2026
-Official public code for TextSeal, TextSeal2 and Post-Hoc Watermarking:
+Official public code for TextSeal:
 https://github.com/facebookresearch/textseal
 
 Existing works

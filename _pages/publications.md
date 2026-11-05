@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
-description: Publications and preprints by year. Accepted and forthcoming papers are labeled separately.
+title: Selected Publications
+description: Selected publications and preprints by year. Accepted and forthcoming papers are labeled separately.
 nav: false
 nav_order: 2
 ---

@@ -36,7 +36,8 @@ Before joining Meta, I was a postdoctoral researcher at MBZUAI working with [Pro
 
 I was a research intern at **Brave** (2024), mentored by [Ali Shahin Shamsabadi](https://alishahin.github.io/) and [Kleomenis Katevas](https://minoskt.github.io/), and at **[Intel's Security and Privacy Lab](https://www.intel.com/content/www/us/en/research/security.html)** (2022), mentored by [Brandon Edwards](https://www.usenix.org/conference/usenixsecurity24/speaker-or-organizer/brandon-edwards-intel-corporation) and [Anindya S. Paul](https://medicine.ufl.edu/profile/paul-anindya/).
 
-### Research
+### Selected Publications
+{: #research}
 
 My work is organized around the following research questions.
 
