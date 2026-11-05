@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: myself.jpg
+  image: hongyan-2026.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <div class="social" style="font-size: 1.5em; margin-top: 10px;">
@@ -29,64 +29,28 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am **Hongyan Chang (常红燕)**, a postdoctoral researcher at FAIR, Meta. Prior to joining Meta, I was working with [Prof. Ting Yu](https://mbzuai.ac.ae/study/faculty/ting-yu/) as a postdoctoral researcher at MBZUAI. I obtained my Ph.D. in Computer Science from the National University of Singapore, under the supervision of [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/). I received my Bachelor's degree in 2018 from the University of Electronic Science and Technology of China (UESTC), and was an exchange student at National Chiao Tung University in 2016.
+I am **Hongyan Chang (常红燕)**, a postdoctoral researcher at FAIR, Meta, in the [Content Seal team](https://facebookresearch.github.io/content-seal/). My research focuses on **AI security**, particularly **agentic security**, **data and model distillation**, and **model provenance**. I study how AI systems can be attacked, how training data and model capabilities are reused, and how we can detect and mitigate these risks.
 
-My research interests are in trustworthy machine learning, with a focus on the privacy and accountability of large language models (LLMs):
+Before joining Meta, I was a postdoctoral researcher at MBZUAI working with [Prof. Ting Yu](https://mbzuai.ac.ae/study/faculty/ting-yu/). I obtained my Ph.D. in Computer Science from the National University of Singapore, advised by [Prof. Reza Shokri](https://www.comp.nus.edu.sg/~reza/). I received my bachelor's degree in 2018 from the University of Electronic Science and Technology of China (UESTC), and was an exchange student at National Chiao Tung University in 2016.
 
-- **Evaluating the risks of LLM systems**: Understanding and quantifying vulnerabilities in modern language models and their systems
-- **Machine-generated text detection**: Developing methods to identify AI-generated content while preserving utility
+I was a research intern at **Brave** (2024), mentored by [Ali Shahin Shamsabadi](https://alishahin.github.io/), [Kleomenis Katevas](https://minoskt.github.io/), and [Hamed Haddadi](https://haddadi.github.io/about/), and at **[Intel's Security and Privacy Lab](https://www.intel.com/content/www/us/en/research/security.html)** (2022), mentored by [Brandon Edwards](https://www.usenix.org/conference/usenixsecurity24/speaker-or-organizer/brandon-edwards-intel-corporation) and [Anindya S. Paul](https://medicine.ufl.edu/profile/paul-anindya/).
 
+### Research
 
+My work is organized around the following research questions. See also [publications by year]({{ '/publications/' | relative_url }}) and [Google Scholar](https://scholar.google.com/citations?user=5d1AHgIAAAAJ).
 
+{% for theme in site.data.research_themes %}
+#### {{ theme.title }}
 
-### Publications
+**{{ theme.question }}** {{ theme.description }}
 
-- **Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems**  
-   **Hongyan Chang**, Ergute Bao, Xinjian Luo, Ting Yu  
-   *USENIX Security Symposium (USENIX), 2026 (To appear)*
-
-- **Watermark Smoothing Attacks against Language Models**  
-   **Hongyan Chang**, Hamed Hassani, and Reza Shokri  
-   *Empirical Methods in Natural Language Processing (EMNLP) Findings, 2025*  
-   *WMARK@International Conference on Learning Representations (ICLR), 2025*  
-   [[PDF](https://aclanthology.org/2025.findings-emnlp.264/)] [[Code](https://github.com/changhongyan123/watermark_smoothing)]   [[Poster]({{ site.url }}{{ site.baseurl }}/assets/pdf/EMNLP_2025_find-855_poster.pdf)]
-- **Context-Aware Membership Inference Attacks Against Pre-Trained Large Language Models**  
-   **Hongyan Chang**, Ali Shahin Shamsabadi, Kleomenis Katevas, Hamed Haddadi, and Reza Shokri  
-   *Empirical Methods in Natural Language Processing (EMNLP) Main (Oral), 2025*  
-   🎖️ **Outstanding Paper Award Nomination**  
-   [[PDF](https://arxiv.org/abs/2409.13745)] [[Code](https://github.com/changhongyan123/context_aware_mia)] [[Blogpost](https://brave.com/blog/privacy-in-llms/)]
-
-- **Efficient Privacy Auditing in Federated Learning**  
-   **Hongyan Chang**, Brandon Edwards, Anindya S. Paul, and Reza Shokri  
-   *USENIX Security Symposium (USENIX), 2024*  
-   [[PDF](https://www.usenix.org/conference/usenixsecurity24/presentation/chang)] [[Code](https://github.com/changhongyan123/privacy_auditing_in_FL)]
-
-- **On The Impact of Machine Learning Randomness on Group Fairness**  
-   Prakhar Ganesh, **Hongyan Chang**, Martin Strobel, and Reza Shokri  
-   *ACM Conference on Fairness, Accountability, and Transparency (FAccT), 2023*  
-   🏆 **Best Paper Award**  
-   [[PDF](https://dl.acm.org/doi/10.1145/3593013.3594116)] [[Code](https://github.com/privacytrustlab/Data-Order-Randomness-versus-Group-Fairness)]
-
-- **Bias Propagation in Federated Learning**  
-   **Hongyan Chang** and Reza Shokri  
-   *International Conference on Learning Representations (ICLR), 2023*  
-   [[PDF](https://openreview.net/pdf?id=V7CYzdruWdm)] [[Code](https://github.com/privacytrustlab/bias_in_FL)]
-
-- **Cronus: Robust and Heterogeneous Collaborative Learning with Black-box Knowledge Transfer**  
-   **Hongyan Chang**\*, Virat Shejwalkar\*, Reza Shokri, and Amir Houmansadr  
-   *NFFL@Neural Information Processing Systems (NeurIPS), 2021*  
-   (*Equal contribution)  
-   [[PDF](https://neurips2021workshopfl.github.io/NFFL-2021/papers/2021/Chang2021.pdf)]
-
-- **On the Privacy Risks of Algorithmic Fairness**  
-   **Hongyan Chang** and Reza Shokri  
-   *6th IEEE European Symposium on Security and Privacy (Euro S&P), 2021*  
-   [[PDF](https://arxiv.org/pdf/2011.03731)] [[Slides](https://www.ieee-security.org/TC/EuroSP2021/slides/Hongyan%20Chang%20-%20Hongyan%20Chang-On%20the%20Privacy%20Risks%20of%20Algorithmic%20Fairness.pdf)]
-
-- **On Adversarial Bias and the Robustness of Fair Machine Learning**  
-   **Hongyan Chang**, Ta Duy Nguyen, Sasi Kumar Murakonda, Ehsan Kazemi, and Reza Shokri  
-   *2020*  
-   [[PDF](https://arxiv.org/pdf/2006.08669)] [[Code](https://github.com/privacytrustlab/adversarial_bias)]
+<ul>
+{% assign theme_papers = site.data.research_papers | where: 'theme', theme.id | sort: 'sort_date' | reverse %}
+{% for paper in theme_papers %}
+{% include research-paper.liquid paper=paper %}
+{% endfor %}
+</ul>
+{% endfor %}
 
 ---
 
@@ -124,10 +88,13 @@ My research interests are in trustworthy machine learning, with a focus on the p
 
 ### Open-source Projects
 
-- **Privacy Meter @ NUS**: A system for evaluating the privacy risks of machine learning models. <i class="fa-brands fa-github"></i> [GitHub](https://github.com/privacytrustlab/ml_privacy_meter) (500+ stars)  
+- **TextSeal @ Meta**: Text watermarking for provenance and distillation detection. [GitHub](https://github.com/facebookresearch/textseal).<br>
+  **My role**: contributing to the research, including the watermark-based distillation detection study in TextSeal.
+
+- **Privacy Meter @ NUS**: A system for evaluating the privacy risks of machine learning models. <i class="fa-brands fa-github"></i> [GitHub](https://github.com/privacytrustlab/ml_privacy_meter)<br>
   **My role**: leading the development team and spearheading the initial [1.0.1 release](https://pypi.org/project/Privacy-Meter/).
 
-- **OpenFL @ Intel**: Auditing privacy risks in real-time. <i class="fa-brands fa-github"></i> [GitHub](https://github.com/intel/openfl/tree/develop/openfl-tutorials/experimental/Privacy_Meter). [Blogpost](https://www.intel.com/content/www/us/en/developer/articles/technical/how-openfl-and-privacy-meter-empower-data-privacy.html).  
+- **OpenFL @ Intel**: Auditing privacy risks in real-time. <i class="fa-brands fa-github"></i> [GitHub](https://github.com/securefederatedai/openfederatedlearning/tree/develop/openfl-tutorials/experimental/workflow/Privacy_Meter). [Blogpost](https://www.intel.com/content/www/us/en/developer/articles/technical/how-openfl-and-privacy-meter-empower-data-privacy.html).<br>
   **My role**: leading the integration of privacy meter into OpenFL.
 
 ---

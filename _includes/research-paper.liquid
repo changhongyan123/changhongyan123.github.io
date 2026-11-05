@@ -1,0 +1,12 @@
+{% assign paper = include.paper %}
+<li id="{{ paper.id | escape }}">
+  <p>
+    <strong>{{ paper.title | escape }}</strong><br>
+    {{ paper.authors | escape | replace: 'Hongyan Chang', '<strong>Hongyan Chang</strong>' }}<br>
+    <em>{{ paper.venue | escape }}{% if paper.status == 'accepted' %} (accepted / to appear){% endif %}</em><br>
+    {% if paper.venue_note %}<em>{{ paper.venue_note | escape }}</em><br>{% endif %}
+    {% if paper.equal_contribution %}(* Equal contribution)<br>{% endif %}
+    {% if paper.award %}<strong>{{ paper.award | escape }}</strong><br>{% endif %}
+    [<a href="{{ paper.url | escape }}">Paper</a>]{% if paper.code %} [<a href="{{ paper.code | escape }}">Code</a>]{% endif %}{% if paper.blog %} [<a href="{{ paper.blog | escape }}">Blogpost</a>]{% endif %}{% if paper.poster %} [<a href="{{ paper.poster | relative_url }}">Poster</a>]{% endif %}{% if paper.slides %} [<a href="{{ paper.slides | escape }}">Slides</a>]{% endif %}
+  </p>
+</li>

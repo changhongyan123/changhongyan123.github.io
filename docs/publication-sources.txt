@@ -1,0 +1,87 @@
+Publication evidence — verified 2026-11-05
+
+Scope
+15 research works, using primary publication records and coauthor announcements.
+The existing live homepage had 9 works; 6 public works were added.
+Google Scholar profile 5d1AHgIAAAAJ could not be fetched directly by the research browser, including the English/date-sorted variant. This is not a claim of an exhaustive Scholar synchronization.
+https://scholar.google.com/citations?user=5d1AHgIAAAAJ&hl=en&sortby=pubdate
+
+New works
+TextSeal2 — title/authors/preprint; submitted 2026-10-29:
+https://arxiv.org/abs/2610.40613
+Watermark Basins — title/authors/preprint; submitted 2026-10-27:
+https://arxiv.org/abs/2610.37266
+Distributed and Private Textual Data Synthesis from Embeddings — title/authors, September 2026 preprint:
+https://arxiv.org/abs/2609.10104
+PETS 2027 acceptance confirmed in first author and coauthor publication lists; keep accepted/to appear:
+https://erguteb.github.io/
+https://alishahin.github.io/
+Image Prompt Reconstruction — title/authors/preprint; submitted 2026-06-17:
+https://arxiv.org/abs/2606.18710
+TextSeal — title/authors, May 2026 preprint:
+https://arxiv.org/abs/2605.12456
+NeurIPS 2026 acceptance announced September 24 by first author and September 26 by last author; keep accepted until proceedings are verified:
+https://sandertom.github.io/
+https://pierrefdz.github.io/
+Post-Hoc Watermarking — title/authors, first submitted December 2025:
+https://arxiv.org/abs/2512.16904
+ICML 2026 acceptance announced April 30; title present in the official 2026 program:
+https://sandertom.github.io/
+https://icml.cc/Downloads/2026
+Official public code for TextSeal, TextSeal2 and Post-Hoc Watermarking:
+https://github.com/facebookresearch/textseal
+
+Existing works
+Retrieval Barrier — published USENIX Security 2026, August, pages 1567–1586; removed outdated to-appear status:
+https://www.usenix.org/conference/usenixsecurity26/presentation/chang-hongyan
+Smoothing — EMNLP Findings 2025:
+https://aclanthology.org/2025.findings-emnlp.264/
+https://github.com/changhongyan123/watermark_smoothing
+CAMIA — EMNLP 2025; oral confirmed by Brave article; award nomination preserved from author's existing homepage:
+https://aclanthology.org/2025.emnlp-main.370/
+https://github.com/changhongyan123/context_aware_mia
+https://brave.com/blog/privacy-in-llms/
+FL Auditing — USENIX Security 2024; author spelling Anindya S. Paul follows official record:
+https://www.usenix.org/conference/usenixsecurity24/presentation/chang
+https://github.com/changhongyan123/privacy_auditing_in_FL
+Randomness and Fairness — FAccT 2023; Best Paper Award preserved from existing author homepage:
+https://arxiv.org/abs/2307.04138
+https://dl.acm.org/doi/10.1145/3593013.3594116
+https://github.com/privacytrustlab/Data-Order-Randomness-versus-Group-Fairness
+Bias Propagation — ICLR 2023:
+https://arxiv.org/abs/2309.02160
+https://openreview.net/pdf?id=V7CYzdruWdm
+https://github.com/privacytrustlab/bias_in_FL
+Cronus — NFFL @ NeurIPS 2021 workshop, equal contribution:
+https://neurips2021workshopfl.github.io/NFFL-2021/papers/2021/Chang2021.pdf
+Privacy Risks of Fairness — Euro S&P 2021, as listed by author:
+https://arxiv.org/abs/2011.03731
+https://www.ieee-security.org/TC/EuroSP2021/slides/Hongyan%20Chang%20-%20Hongyan%20Chang-On%20the%20Privacy%20Risks%20of%20Algorithmic%20Fairness.pdf
+Adversarial Bias — preprint 2020:
+https://arxiv.org/abs/2006.08669
+https://github.com/privacytrustlab/adversarial_bias
+Existing author homepage used to preserve established awards and resource links:
+https://hongyanchang.com/
+
+Data conventions
+The JSON uses only public bibliographic fields and brief factual summaries. No internal submission notes, individual ownership claims, or private application details were imported.
+The sort_date field is an ordering key, not an exact release date: dates with unavailable day precision use day 01; PETS 2027 uses 2027-01-01 to group the accepted 2027 venue.
+No public code URL was verified for Watermark Basins, image reconstruction, or distributed synthesis, so none was added.
+The old Smoothing poster URL was omitted because its target was unavailable and the corresponding file was absent from the checkout.
+
+Biography / internship mentor links (verified 2026-11-05)
+User requested including internship mentors. Internship names and years were checked against the user-supplied CV; only those professional facts were used.
+Brave, 2024: Ali Shahin Shamsabadi, Kleomenis Katevas, Hamed Haddadi.
+Ali also lists Hongyan as Brave PhD Intern, summer 2024:
+https://alishahin.github.io/
+https://minoskt.github.io/
+https://haddadi.github.io/about/
+Intel Security and Privacy Lab, 2022: Brandon Edwards, Anindya S. Paul. One Intel internship is documented.
+https://www.intel.com/content/www/us/en/research/security.html
+https://www.usenix.org/conference/usenixsecurity24/speaker-or-organizer/brandon-edwards-intel-corporation
+https://medicine.ufl.edu/profile/paul-anindya/
+
+Current team link added at the user's request:
+https://facebookresearch.github.io/content-seal/
+Official repository confirms this is FAIR's Content Seal research:
+https://github.com/facebookresearch/content-seal
